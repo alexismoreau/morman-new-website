@@ -1235,23 +1235,23 @@ header #st-logo img {
 
 /* Adding percentage to progress bars */
 .bar-wrapper .col-md-8 .first-bar {
-    width: 75%;
+    width: 85%;
 }
 
 .bar-wrapper .col-md-8 .second-bar {
-    width: 80%;
+    width: 90%;
 }
 
 .bar-wrapper .col-md-8 .third-bar {
-    width: 50%;
+    width: 100%;
 }
 
 .bar-wrapper .col-md-8 .fourth-bar {
-    width: 70%;
+    width: 80%;
 }
 
 .bar-wrapper .col-md-8 .fifth-bar {
-    width: 59%;
+    width: 85%;
 }
 
 .bar-wrapper .col-md-1 {
