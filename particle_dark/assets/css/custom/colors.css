@@ -12,12 +12,14 @@
 .service-2 .text a:hover,
 .service .icons i,
 .service-2 .icons i,
+.skills-headline h2 span,
 .info-line .info-icon i,
 footer p a:hover,
 .portfolio-icons li a i,
 .service-icons li a i {
     color: #9600f4;
 }
+
 
 .social-icons li a:hover,
 .contact-form .btn-default:hover,
@@ -104,5 +106,3 @@ footer p a:hover,
     background-image: -webkit-linear-gradient(left, #00BBFF, #D42BFF 100%);
     background-image: linear-gradient(to right, #00BBFF, #D42BFF 100%);
 }
-
-

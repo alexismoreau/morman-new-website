@@ -1149,19 +1149,23 @@ header #st-logo img {
 }
 
 .skills-headline {
+    padding-right: 120px;
+    padding-left: 120px;
     margin-bottom: 80px;
+    text-align: center;
 }
 
-.skills-headline h4 {
-    line-height: 29px;
-    font-size: 28px;
+.skills-headline h2 {
+    line-height: 44px;
+    font-size: 37px;
     color: #ffffff;
-    margin-bottom: 20px;
-    margin-top: 0;
+    margin-bottom: 30px;
     font-weight: 200;
+    margin-top: 0;
 }
 
-.skills-headline h4 span {
+
+.skills-headline h2 span {
     font-weight: 700;
 }
 
