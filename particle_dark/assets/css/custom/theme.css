@@ -881,7 +881,7 @@ header #st-logo img {
     height: 400px;
     background: url('../../images/quote-background.jpg') 50% 100% fixed;
     text-align: center;
-    padding-top: 137px;
+    padding-top: 80px;
     padding-bottom: 137px;
 }
 
@@ -924,6 +924,7 @@ header #st-logo img {
     padding-right: 120px;
     padding-left: 120px;
     margin-bottom: 80px;
+    margin-top: -30px;
     text-align: center;
 }
 
