@@ -650,7 +650,7 @@ header #st-logo img {
 
 .portfolio-img .img-responsive {
     max-width: 110%;
-    margin-left: -10px;
+    margin-left: -15px;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
@@ -1488,7 +1488,7 @@ footer p a {
     height: 100%;
     width: 100%;
     margin-top: -100px;
-    background: url('../../images/portfolio-item.jpg') 100% 100% fixed;
+    background: url('../../images/service-item.jpg') 100% 100% fixed;
     background-size: cover;
     position: relative;
 }
