@@ -952,6 +952,8 @@ header #st-logo img {
 .service-content {
     text-align: center;
     overflow: hidden;
+    font-size: 16px;
+    margin-top: 16px;
 }
 
 .service-content .left,
