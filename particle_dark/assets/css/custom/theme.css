@@ -3060,3 +3060,34 @@ footer p a {
         font-size: 14px
     }
 }
+/* partie service */
+
+#services > div > div > div.col-md-12.service-content > div.left > div:nth-child(1) > div.text > h4 {
+  font-size: 20px;
+  color: #9600f4;
+}
+
+#services > div > div > div.col-md-12.service-content > div.left > div:nth-child(4) > div.text > h4 {
+  font-size: 20px;
+  color: #9600f4;
+}
+
+#services > div > div > div.col-md-12.service-content > div.left > div:nth-child(7) > div.text > h4 {
+  font-size: 20px;
+  color: #9600f4;
+}
+
+#services > div > div > div.col-md-12.service-content > div.right > div:nth-child(1) > div.text > h4 {
+  font-size: 20px;
+  color: #9600f4;
+}
+
+#services > div > div > div.col-md-12.service-content > div.right > div:nth-child(2) > div.text > h4 {
+  font-size: 20px;
+  color: #9600f4;
+}
+
+#services > div > div > div.col-md-12.service-content > div.right > div:nth-child(5) > div.text > h4 {
+  font-size: 20px;
+  color: #9600f4;
+}
