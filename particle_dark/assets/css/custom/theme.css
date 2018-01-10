@@ -953,7 +953,7 @@ header #st-logo img {
     text-align: center;
     overflow: hidden;
     font-size: 16px;
-    margin-top: 16px;
+    margin-top: -40px;
 }
 
 .service-content .left,
@@ -1074,6 +1074,9 @@ header #st-logo img {
     font-size: 16px;
     color: #ffffff;
     font-weight: 300;
+}
+.call-to-section p span {
+    font-weight: 700;
 }
 
 .call-to-section .btn-default {
