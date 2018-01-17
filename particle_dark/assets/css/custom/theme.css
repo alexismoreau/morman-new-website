@@ -3252,6 +3252,10 @@ footer p a {
     padding-top: 80px;
 }
 
+#yt-player {
+    opacity: 0.6;
+}
+
 @media only screen and (max-width: 1070px) {
     #our-work {
         height: 73em;
