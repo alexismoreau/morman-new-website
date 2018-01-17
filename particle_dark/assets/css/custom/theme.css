@@ -3256,6 +3256,24 @@ footer p a {
     opacity: 0.6;
 }
 
+#hero > div.container-fluid > div > div > div.hero-logo {
+    margin-top: 40em;
+}
+@media only screen and (max-width: 1200px) {
+    #our-work {
+        height: 45em;
+    }
+    #about {
+        height: 55em;
+    }
+    #about > div > div > div > div.about-text {
+        height: 35em;
+    }
+    #quote {
+        background-color: #0c161e;
+    }
+}
+
 @media only screen and (max-width: 1070px) {
     #our-work {
         height: 73em;
@@ -3266,13 +3284,6 @@ footer p a {
         margin: auto;
         float: none;
     }
-    #about {
-        height: 55em;
-    }
-    #about > div > div > div > div.about-text {
-        height: 35em;
-    }
-    
 }
 
 @media only screen and (max-width: 992px) {
