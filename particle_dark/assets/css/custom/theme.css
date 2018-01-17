@@ -3142,3 +3142,47 @@ footer p a {
 #quote > div > div > div.col-md-12.quote-bottom {
     padding-top: 80px;
 }
+
+@media only screen and (max-width: 1070px) {
+    #our-work {
+        height: 73em;
+    }
+    #our-work > div > div > div.col-md-12.portfolio-images > div {
+        padding: 2em 0 0 0;
+        width: 70%;
+        margin: auto;
+        float: none;
+    }
+    #about {
+        height: 55em;
+    }
+    #about > div > div > div > div.about-text {
+        height: 35em;
+    }
+    
+}
+
+@media only screen and (max-width: 540px) {
+    #big-image {
+        padding-top: 5em;
+    }
+    #big-image > div > div > div > h4 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #big-image > div > div > div > h4 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    #big-image {
+        padding-top: 0em;
+    }
+    
+    #big-image > div > div > div > h4 {
+        font-size: 16px;
+    }
+}
