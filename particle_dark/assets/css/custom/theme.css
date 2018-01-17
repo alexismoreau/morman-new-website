@@ -3042,6 +3042,69 @@ footer p a {
     }
 }
 
+/*****************************************/
+
+/* 10. Skills Section
+--------------------------------- */
+.skills-section {
+    height: 640px;
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #0c161e;
+}
+
+.skills-headline {
+    padding-right: 120px;
+    padding-left: 120px;
+    margin-bottom: 80px;
+    margin-top: -60px;
+    text-align: center;
+}
+
+.skills-headline h2 {
+    line-height: 44px;
+    font-size: 37px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+
+.skills-headline h2 span {
+    font-weight: 700;
+}
+
+.skills-headline p {
+    line-height: 26px;
+    font-size: 16px;
+    color: #9EC6D8;
+    font-weight: 300;
+}
+
+/* Adding percentage to progress bars */
+.bar-wrapper .col-md-8 .first-bar {
+    width: 85%;
+}
+
+.bar-wrapper .col-md-8 .second-bar {
+    width: 90%;
+}
+
+.bar-wrapper .col-md-8 .third-bar {
+    width: 100%;
+}
+
+.bar-wrapper .col-md-8 .fourth-bar {
+    width: 80%;
+}
+
+.bar-wrapper .col-md-8 .fifth-bar {
+    width: 85%;
+}
+
 #big-image {
     height: 52em;
     padding-top: 10em;
@@ -3055,7 +3118,7 @@ footer p a {
     padding: 0;
 }
 
-#services > div > div > div.col-md-12.service-content > div > div > div.text > h4 {
+#services > div > div > div.col-md-12.service-content > div > div > div.text > h4, #skills > div > div > div.col-md-12.progress-bar-wrapper > div > div > div.col-md-3.col-sm-3.col-xs-4.wow.fadeIn.animated, #skills > div > div > div.col-md-12.progress-bar-wrapper > div > div > div.col-md-1.col-sm-1.col-xs-1 > span {
     color: #A4C2D6;
     font-size: 17px;
     line-height: 17px;
