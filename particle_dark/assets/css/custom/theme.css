@@ -3162,12 +3162,63 @@ footer p a {
     
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 992px) {
+    #about {
+        height: 60em;
+    }
+    #about > div > div > div > div.about-text {
+        height: 40em;
+    }
+    #skills > div > div > div > div {
+        padding: 2em;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #our-work > div > div > div.col-md-12.portfolio-images > div {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    #our-work > div > div > div.col-md-12.portfolio-images > div {
+        width: 95%;
+    }
+    #our-work > div > div > div.col-md-12.see-work {
+        height: 9em;
+    }
+    #about {
+        height: 54em;
+    }
+    #about > div > div > div > div.about-text {
+        height: 40em;
+    }
+}
+
+@media only screen and (max-width: 536px) {
     #big-image {
         padding-top: 5em;
     }
     #big-image > div > div > div > h4 {
         font-size: 20px;
+    }
+    #our-work > div > div > div.col-md-12.new-style {
+        height: 5em;
+    }
+    #about {
+        height: 40em;
+    }
+    #about > div > div > div > div.about-text {
+        height: 38em;
+    }
+    #about > div > div > div > div.about-text {
+        padding-top: 5em;
+    }
+    #about > div > div > div > div.about-text {
+        height: 44em;
+    }
+    #about > div > div > div > div.about-images > div.mockup, #about > div > div > div > div.about-text > ul {
+        display: none;
     }
 }
 
