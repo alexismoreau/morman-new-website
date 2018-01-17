@@ -3055,6 +3055,13 @@ footer p a {
     padding: 0;
 }
 
+#services > div > div > div.col-md-12.service-content > div > div > div.text > h4 {
+    color: #A4C2D6;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 700;
+}
+
 #our-work > div > div > div.col-md-12.portfolio-images > div > div > img {
     width: 100%;
     margin-left: 0px;
