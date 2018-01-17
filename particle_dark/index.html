@@ -77,28 +77,32 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
     </nav>
 </div>
 <!-- /#st-nav -->
-
+    
 <!-- Hero Section
 ================================================== -->
-<section id="hero" class="hero-section-2">
-
+<section id="hero" class="hero-section-video">
+    <div class="video-overlay"></div>
+    <!-- /.video-overlay -->
+    <div class="hero-video">
+        <video autoplay loop poster="assets/video/particle-video-v1-light.jpg" id="bgvid">
+            <source src="assets/video/particle-video-v1-light.webm" type="video/webm">
+            <source src="assets/video/particle-video-v1-light.mp4" type="video/mp4">
+        </video>
+    </div>
     <div class="container-fluid">
 
         <div class="row">
 
             <div class="col-lg-12">
-
-                <div id="particles-js"></div>
-
-                <div class="headlines-wrapper">
+                <div class="hero-logo">
+                    <img src="assets/images/hero-logo.png" alt="logo">
+                    <div id="particles-js"></div>
+                </div>
+                <div class="typed-text">
                     <span class="skilltechtypetext">
                         <span class="typed-cursor">|</span>
                     </span>
                 </div>
-                <!-- /.headlines-wrapper -->
-                <h3 class="first-headline">Des experts en conception digitale développent des solutions simples</h3>
-                <h3 class="second-headline">et efficaces pour <span> votre évolution professionnelle ! </span></h3>
-
             </div>
             <!-- /.col-lg-12 -->
         </div>
@@ -106,8 +110,8 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
     </div>
     <!-- /.container-fluid -->
 </section>
-<!-- /.hero-section-2 -->
-
+<!-- /.hero-section -->
+    
 <!-- Image Section
 ================================================== -->
 <section id="big-image" class="image-section">
@@ -129,7 +133,7 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                     aider à gérer vos contenus et vos services <span>en toute autonomie</span>
                 </h4>
                 <a class= "page-scroll" href="#contact">
-                <button class="btn btn-default btn-lg wow fadeInRight hvr-sweep-to-right animated">Dites-nous vos besoins</button>
+                <button class="btn btn-default btn-lg wow fadeInRight hvr-sweep-to-right animated">Parlez-nous de vos besoins !</button>
                 </a>
             </div>
             <!-- /.col-md-12 -->
@@ -185,7 +189,7 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 
                 <div class="col-md-6 col-sm-6 col-xs-6">
                     <div class="portfolio-img second" onClick="window.open('file_dattente.html');">
-                        <img class="img-responsive" src="assets/images/attente.png"
+                        <img class="img-responsive" src="assets/images/attente.jpg"
                              alt="porftofilio thumbnail">
                         <div class="sweep-left"></div>
                         <div class="sweep-from-center">
@@ -671,8 +675,8 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 <script src="assets/js/libraries/jquery.counterup.js"></script>
 <!-- Custom Particle Theme JavaScript -->
 <script>
-    var sentences = ["Boostez votre chiffre d'affaires !", "Développez votre entreprise"];
+    var sentences = ["Des experts en conception digitale développent des solutions simples", "et efficaces pour votre évolution professionnelle !"];
 </script>
-<script src="assets/js/custom/particle-theme-dark.js"></script>
+<script src="assets/js/custom/particle-theme-light.js"></script>
 </body>
 </html>

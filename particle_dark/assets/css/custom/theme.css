@@ -376,7 +376,73 @@ header #st-logo img {
 
 /* 3. Hero Section
 --------------------------------- */
-.hero-section-2 .headlines-wrapper .typed-cursor,
+.hero-section-video {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: -100px;
+    position: relative;
+}
+
+.video-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../../images/overlay-pattern.png') repeat;
+    opacity: 0.6;
+}
+
+.hero-video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-video video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.hero-logo {
+    margin-top: 330px;
+    overflow: hidden;
+}
+
+.hero-section-video #particles-js {
+    width: 950px;
+    height: 280px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 330px;
+}
+
+.hero-section-video .typed-text {
+    height: 50px;
+}
+
+.hero-section-video .typed-text .skilltechtypetext {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.hero-section-video .typed-text .typed-cursor,
 .typed-headline .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -385,9 +451,9 @@ header #st-logo img {
     color: #ffffff;
 }
 
-.hero-section-2 .headlines-wrapper .typed-cursor {
-    font-size: 76px;
-    line-height: 76px;
+.hero-section-video .typed-text .typed-cursor {
+    font-size: 50px;
+    line-height: 50px;
 }
 
 @keyframes blink {
@@ -426,64 +492,6 @@ header #st-logo img {
     }
 }
 
-.hero-section-2 {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    margin-top: -100px;
-    background: url("../../images/hero-dark.jpg");
-    position: relative;
-    background-size: cover;
-}
-
-.hero-section-2 #particles-js {
-    margin-top: 0;
-    width: 100%;
-    height: 100vh;
-}
-
-.hero-section-2 .headlines-wrapper {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 380px;
-}
-
-.hero-section-2 .skilltechtypetext {
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 76px;
-    line-height: 90px;
-}
-
-.hero-section-2 h3 {
-    line-height: 44px;
-    font-size: 37px;
-    color: #ffffff;
-    font-weight: 400;
-    margin-bottom: 0;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-}
-
-.hero-section-2 .first-headline {
-    top: 470px;
-}
-
-.hero-section-2 .second-headline {
-    margin-top: 5px;
-    top: 540px;
-}
-
-.hero-section-2 .second-headline span {
-    font-weight: 700;
-}
-
 /* 4. Image Section
 --------------------------------- */
 .image-section {
@@ -509,7 +517,6 @@ header #st-logo img {
 .image-section h4 {
     line-height: 41px;
     font-size: 34px;
-    margin-top: -130px;
     color: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
@@ -586,6 +593,7 @@ header #st-logo img {
 .our-work-section {
     height: auto;
     width: 100%;
+    background: #FFFFFF;
 }
 
 .our-work-section .see-work {
@@ -650,7 +658,7 @@ header #st-logo img {
 
 .portfolio-img .img-responsive {
     max-width: 110%;
-    margin-left: -15px;
+    margin-left: -10px;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
@@ -703,7 +711,7 @@ header #st-logo img {
     width: 100%;
     background: rgba(0, 0, 0, 0.9);
     text-align: center;
-    padding-top: 80px;
+    padding-top: 35%;
     position: absolute;
     top: 6px;
     bottom: 6px;
@@ -761,12 +769,11 @@ header #st-logo img {
 .about-section {
     height: 880px;
     text-align: center;
-    background: #0c161e;
-    color: white;
+    background: #ffffff;
 }
 
 .about-text {
-    padding-top: 30px;
+    padding-top: 100px;
     height: 440px;
 }
 
@@ -775,18 +782,17 @@ header #st-logo img {
     font-size: 40px;
     margin-bottom: 20px;
     font-weight: 200;
-    color: #ffffff;
 }
 
 .about-text h2 span {
     font-weight: 700;
-    color: #ffffff;
+    color: #3A3A3A;
 }
 
 .about-text p {
     line-height: 26px;
     font-size: 16px;
-    color: #9EC6D8;
+    color: #647D89;
     font-weight: 300;
     margin-bottom: 40px;
 }
@@ -861,7 +867,7 @@ header #st-logo img {
 
 .quote-headline {
     height: 136px;
-    background-color: #000000;
+    background-color: #0c161e;
     color: #ffffff;
     text-align: center;
     padding: 53px 0;
@@ -882,7 +888,7 @@ header #st-logo img {
     height: 400px;
     background: url('../../images/quote-background.jpg') 50% 100% fixed;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 137px;
     padding-bottom: 137px;
 }
 
@@ -925,7 +931,6 @@ header #st-logo img {
     padding-right: 120px;
     padding-left: 120px;
     margin-bottom: 80px;
-    margin-top: -30px;
     text-align: center;
 }
 
@@ -952,8 +957,6 @@ header #st-logo img {
 .service-content {
     text-align: center;
     overflow: hidden;
-    font-size: 16px;
-    margin-top: -40px;
 }
 
 .service-content .left,
@@ -1075,9 +1078,6 @@ header #st-logo img {
     color: #ffffff;
     font-weight: 300;
 }
-.call-to-section p span {
-    font-weight: 700;
-}
 
 .call-to-section .btn-default {
     width: 180px;
@@ -1152,35 +1152,30 @@ header #st-logo img {
     text-align: center;
     padding-top: 120px;
     padding-bottom: 120px;
-    background: #0c161e;
+    background: #FFFFFF;
 }
 
 .skills-headline {
-    padding-right: 120px;
-    padding-left: 120px;
     margin-bottom: 80px;
-    margin-top: -60px;
-    text-align: center;
 }
 
-.skills-headline h2 {
-    line-height: 44px;
-    font-size: 37px;
-    color: #ffffff;
-    margin-bottom: 30px;
-    font-weight: 200;
+.skills-headline h4 {
+    line-height: 29px;
+    font-size: 28px;
+    color: #464747;
+    margin-bottom: 20px;
     margin-top: 0;
+    font-weight: 200;
 }
 
-
-.skills-headline h2 span {
+.skills-headline h4 span {
     font-weight: 700;
 }
 
 .skills-headline p {
     line-height: 26px;
     font-size: 16px;
-    color: #9EC6D8;
+    color: #647D89;
     font-weight: 300;
 }
 
@@ -1196,11 +1191,10 @@ header #st-logo img {
     font-weight: 600;
     text-align: left;
     padding-left: 70px;
-    color: #4D748C;
 }
 
 .bar-wrapper .col-md-8 {
-    border-top: 1px solid #4D748C;
+    border-top: 1px solid #B1C4DB;
     padding-top: 5px;
     padding-left: 0;
 }
@@ -1247,27 +1241,27 @@ header #st-logo img {
 
 /* Adding percentage to progress bars */
 .bar-wrapper .col-md-8 .first-bar {
-    width: 85%;
+    width: 75%;
 }
 
 .bar-wrapper .col-md-8 .second-bar {
-    width: 90%;
-}
-
-.bar-wrapper .col-md-8 .third-bar {
-    width: 100%;
-}
-
-.bar-wrapper .col-md-8 .fourth-bar {
     width: 80%;
 }
 
+.bar-wrapper .col-md-8 .third-bar {
+    width: 50%;
+}
+
+.bar-wrapper .col-md-8 .fourth-bar {
+    width: 70%;
+}
+
 .bar-wrapper .col-md-8 .fifth-bar {
-    width: 85%;
+    width: 59%;
 }
 
 .bar-wrapper .col-md-1 {
-    color: #4D748C;
+    color: #444B54;
     line-height: 19px;
     font-size: 19px;
     font-weight: 700;
@@ -1493,7 +1487,7 @@ footer p a {
     height: 100%;
     width: 100%;
     margin-top: -100px;
-    background: url('../../images/service-item.jpg') 100% 100% fixed;
+    background: url('../../images/portfolio-item.jpg') 100% 100% fixed;
     background-size: cover;
     position: relative;
 }
@@ -1989,36 +1983,36 @@ footer p a {
 /* 15. Media Queries
 --------------------------------- */
 @media only screen and (max-width: 1200px) {
-    .hero-section-2 #particles-js {
-        height: 100vh;
+    .hero-logo {
+        margin-top: 220px;
     }
 
-    .hero-section-2 .headlines-wrapper {
-        top: 280px;
+    .hero-logo img {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .hero-section-2 .headlines-wrapper .typed-cursor {
-        font-size: 50px;
-        line-height: 50px;
+    .hero-section-video #particles-js {
+        width: 820px;
+        height: 200px;
+        left: 0;
+        right: 0;
+        top: 0;
     }
 
-    .hero-section-2 .skilltechtypetext {
-        font-size: 54px;
-        line-height: 70px;
+    .hero-section-video .typed-text {
+        height: 40px;
     }
 
-    .hero-section-2 h3 {
+    .hero-section-video .typed-text .skilltechtypetext {
+        font-size: 40px;
         line-height: 40px;
-        font-size: 33px;
     }
 
-    .hero-section-2 .first-headline {
-        top: 370px;
-    }
-
-    .hero-section-2 .second-headline {
-        margin-top: 5px;
-        top: 440px;
+    .hero-section-video .typed-text .typed-cursor {
+        font-size: 40px;
+        line-height: 40px;
     }
 
     .image-section {
@@ -2135,28 +2129,35 @@ footer p a {
     }
 }
 
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    .hero-logo {
+        margin-top: 280px;
+    }
+}
+
 @media only screen and (max-width: 992px) {
-    .hero-section-2 .headlines-wrapper .typed-cursor {
-        font-size: 40px;
-        line-height: 40px;
+    .hero-logo img {
+        width: 65%;
     }
 
-    .hero-section-2 .skilltechtypetext {
-        font-size: 40px;
-        line-height: 60px;
+    .hero-section-video #particles-js {
+        width: 570px;
+        height: 160px;
+        top: -10px;
     }
 
-    .hero-section-2 h3 {
-        line-height: 34px;
-        font-size: 27px;
+    .hero-section-video .typed-text {
+        height: 26px;
     }
 
-    .hero-section-2 .first-headline {
-        top: 340px;
+    .hero-section-video .typed-text .skilltechtypetext {
+        font-size: 26px;
+        line-height: 26px;
     }
 
-    .hero-section-2 .second-headline {
-        top: 400px;
+    .hero-section-video .typed-text .typed-cursor {
+        font-size: 26px;
+        line-height: 26px;
     }
 
     .image-section {
@@ -2460,10 +2461,8 @@ footer p a {
 }
 
 @media only screen and (max-width: 768px) {
-    .portfolio-info li {
-        display: inline-block;
-        width: 100%;
-        float: left;
+    .hero-logo {
+        margin-top: 400px;
     }
 }
 
@@ -2472,33 +2471,13 @@ footer p a {
         width: 200px;
     }
 
-    .hero-section-2 .headlines-wrapper {
-        top: 120px;
+    .hero-logo {
+        margin-top: 120px;
     }
 
-    .hero-section-2 .headlines-wrapper .typed-cursor {
-        font-size: 28px;
-        line-height: 28px;
-    }
-
-    .hero-section-2 .skilltechtypetext {
-        font-size: 28px;
-        line-height: 40px;
-    }
-
-    .hero-section-2 h3 {
-        line-height: 24px;
-        font-size: 20px;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-
-    .hero-section-2 .first-headline {
-        top: 180px;
-    }
-
-    .hero-section-2 .second-headline {
-        top: 240px;
+    .hero-section-video #particles-js {
+        width: 360px;
+        height: 120px;
     }
 
     .image-section {
@@ -2674,16 +2653,8 @@ footer p a {
 }
 
 @media only screen and (max-width: 590px) and (min-width: 481px) {
-    .hero-section-2 .headlines-wrapper {
-        top: 100px;
-    }
-
-    .hero-section-2 .first-headline {
-        top: 130px;
-    }
-
-    .hero-section-2 .second-headline {
-        top: 170px;
+    .hero-logo {
+        margin-top: 90px;
     }
 
     .about-images .image-center {
@@ -2772,6 +2743,11 @@ footer p a {
 }
 
 @media only screen and (max-width: 480px) {
+    .hero-section-video #particles-js {
+        width: 280px;
+        height: 80px;
+    }
+
     .our-work-section .new-style {
         height: 80px;
         padding: 14px 35px 18px;
@@ -3065,34 +3041,34 @@ footer p a {
         font-size: 14px
     }
 }
-/* partie service */
 
-#services > div > div > div.col-md-12.service-content > div.left > div:nth-child(1) > div.text > h4 {
-  font-size: 20px;
-  color: #9600f4;
+#big-image {
+    height: 52em;
+    padding-top: 10em;
 }
 
-#services > div > div > div.col-md-12.service-content > div.left > div:nth-child(4) > div.text > h4 {
-  font-size: 20px;
-  color: #9600f4;
+#big-image > div > div > div > a > button {
+    width: 200px;
 }
 
-#services > div > div > div.col-md-12.service-content > div.left > div:nth-child(7) > div.text > h4 {
-  font-size: 20px;
-  color: #9600f4;
+#our-work > div > div > div.col-md-12.portfolio-images > div {
+    padding: 0;
 }
 
-#services > div > div > div.col-md-12.service-content > div.right > div:nth-child(1) > div.text > h4 {
-  font-size: 20px;
-  color: #9600f4;
+#our-work > div > div > div.col-md-12.portfolio-images > div > div > img {
+    width: 100%;
+    margin-left: 0px;
+    min-height: 30em;
 }
 
-#services > div > div > div.col-md-12.service-content > div.right > div:nth-child(2) > div.text > h4 {
-  font-size: 20px;
-  color: #9600f4;
+#our-work > div > div > div.col-md-12.portfolio-images > div > div > div.sweep-from-center > div {
+    padding-top: 16%;
 }
 
-#services > div > div > div.col-md-12.service-content > div.right > div:nth-child(5) > div.text > h4 {
-  font-size: 20px;
-  color: #9600f4;
+#about > div > div > div > div.about-text {
+    padding-top: 30px;
+}
+
+#quote > div > div > div.col-md-12.quote-bottom {
+    padding-top: 80px;
 }
