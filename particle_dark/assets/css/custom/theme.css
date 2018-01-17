@@ -769,7 +769,7 @@ header #st-logo img {
 .about-section {
     height: 880px;
     text-align: center;
-    background: #ffffff;
+    background: #0c161e;
 }
 
 .about-text {
@@ -782,17 +782,18 @@ header #st-logo img {
     font-size: 40px;
     margin-bottom: 20px;
     font-weight: 200;
+    color: #ffffff;
 }
 
 .about-text h2 span {
     font-weight: 700;
-    color: #3A3A3A;
+    color: #ffffff;
 }
 
 .about-text p {
     line-height: 26px;
     font-size: 16px;
-    color: #647D89;
+    color: #9EC6D8;
     font-weight: 300;
     margin-bottom: 40px;
 }
@@ -3152,6 +3153,15 @@ footer p a {
     }
 }
 
+.video-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../../images/overlay-pattern.png) repeat;
+    opacity: 0.6;
+}
 
 /* 10. Skills Section
 --------------------------------- */
@@ -3259,6 +3269,19 @@ footer p a {
 #hero > div.container-fluid > div > div > div.hero-logo {
     margin-top: 40em;
 }
+
+#about > div > div > div > div.about-text > h3 > span {
+    color: #A4C2D6;
+}
+
+#our-work {
+    background: #0c161e;
+}
+
+#quote > div > div > div.col-md-12.quote-headline {
+    background: black;
+}
+
 @media only screen and (max-width: 1200px) {
     #our-work {
         height: 45em;

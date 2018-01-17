@@ -3073,3 +3073,390 @@ footer p a {
         font-size: 14px
     }
 }
+
+/*****************************************/
+
+/* 3. Hero Section
+--------------------------------- */
+.hero-section-yt-light {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: -100px;
+    position: relative;
+}
+.video-background {
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground { width: 300%; left: -100%; }
+}
+
+.hero-logo {
+    margin-top: 35em;
+    overflow: hidden;
+}
+
+.hero-section-yt-light #particles-js {
+    width: 950px;
+    height: 280px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 330px;
+}
+
+.hero-section-yt-light .typed-text {
+    height: 50px;
+}
+
+.hero-section-yt-light .typed-text .skilltechtypetext {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.hero-section-yt-light .typed-text .typed-cursor,
+.typed-headline .typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    color: #ffffff;
+}
+
+.hero-section-yt-light .typed-text .typed-cursor {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.video-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../../images/overlay-pattern.png) repeat;
+    opacity: 0.6;
+}
+
+/* 10. Skills Section
+--------------------------------- */
+.skills-section {
+    height: 640px;
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #0c161e;
+}
+
+.skills-headline {
+    padding-right: 120px;
+    padding-left: 120px;
+    margin-bottom: 80px;
+    margin-top: -60px;
+    text-align: center;
+}
+
+.skills-headline h2 {
+    line-height: 44px;
+    font-size: 37px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+
+.skills-headline h2 span {
+    font-weight: 700;
+}
+
+.skills-headline p {
+    line-height: 26px;
+    font-size: 16px;
+    color: #9EC6D8;
+    font-weight: 300;
+}
+
+/* Adding percentage to progress bars */
+.bar-wrapper .col-md-8 .first-bar {
+    width: 85%;
+}
+
+.bar-wrapper .col-md-8 .second-bar {
+    width: 90%;
+}
+
+.bar-wrapper .col-md-8 .third-bar {
+    width: 100%;
+}
+
+.bar-wrapper .col-md-8 .fourth-bar {
+    width: 80%;
+}
+
+.bar-wrapper .col-md-8 .fifth-bar {
+    width: 85%;
+}
+
+#big-image {
+    height: 52em;
+    padding-top: 10em;
+}
+
+#big-image > div > div > div > a > button {
+    width: 200px;
+}
+
+#our-work > div > div > div.col-md-12.portfolio-images > div {
+    padding: 0;
+}
+
+#services > div > div > div.col-md-12.service-content > div > div > div.text > h4, #skills > div > div > div.col-md-12.progress-bar-wrapper > div > div > div.col-md-3.col-sm-3.col-xs-4.wow.fadeIn.animated, #skills > div > div > div.col-md-12.progress-bar-wrapper > div > div > div.col-md-1.col-sm-1.col-xs-1 > span {
+    color: #A4C2D6;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 700;
+}
+
+#our-work > div > div > div.col-md-12.portfolio-images > div > div > img {
+    width: 100%;
+    margin-left: 0px;
+    min-height: 30em;
+}
+
+#our-work > div > div > div.col-md-12.portfolio-images > div > div > div.sweep-from-center > div {
+    padding-top: 16%;
+}
+
+#about > div > div > div > div.about-text {
+    padding-top: 30px;
+}
+
+#quote > div > div > div.col-md-12.quote-bottom {
+    padding-top: 80px;
+}
+
+#yt-player {
+    opacity: 0.6;
+}
+
+#hero > div.container-fluid > div > div > div.hero-logo {
+    margin-top: 40em;
+}
+@media only screen and (max-width: 1200px) {
+    #our-work {
+        height: 45em;
+    }
+    #about {
+        height: 55em;
+    }
+    #about > div > div > div > div.about-text {
+        height: 35em;
+    }
+    #quote {
+        background-color: #0c161e;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    #our-work {
+        height: 73em;
+    }
+    #our-work > div > div > div.col-md-12.portfolio-images > div {
+        padding: 2em 0 0 0;
+        width: 70%;
+        margin: auto;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #about {
+        height: 60em;
+    }
+    #about > div > div > div > div.about-text {
+        height: 40em;
+    }
+    #skills > div {
+        padding: 1em;
+    }
+    #skills > div > div > div:nth-child(1) > div {
+        padding: 0em 2em 4em 2em;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #our-work > div > div > div.col-md-12.portfolio-images > div {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    #our-work > div > div > div.col-md-12.portfolio-images > div {
+        width: 95%;
+    }
+    #our-work > div > div > div.col-md-12.see-work {
+        height: 9em;
+    }
+    #about {
+        height: 54em;
+    }
+    #about > div > div > div > div.about-text {
+        height: 40em;
+    }
+}
+@media only screen and (max-width: 715px) {
+    #services > div > div > div.col-md-12.service-content > div.right  {
+        margin-top: 3em;
+    }
+    #services > div > div > div.col-md-12.service-content > div > div > div.text > h4 {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 698px) {
+    #services > div > div > div.col-md-12.service-content > div > div > div.text > h4 {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 536px) {
+    #big-image {
+        padding-top: 5em;
+    }
+    #big-image > div > div > div > h4 {
+        font-size: 20px;
+    }
+    #our-work > div > div > div.col-md-12.new-style {
+        height: 5em;
+    }
+    #about {
+        height: 40em;
+    }
+    #about > div > div > div > div.about-text {
+        height: 38em;
+    }
+    #about > div > div > div > div.about-text {
+        padding-top: 5em;
+    }
+    #about > div > div > div > div.about-text {
+        height: 44em;
+    }
+    #about > div > div > div > div.about-images > div.mockup, #about > div > div > div > div.about-text > ul {
+        display: none;
+    }
+    #skills {
+        height: 65em;
+    }
+    #contact {
+        height: 100em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #our-work > div > div > div.col-md-12.see-work {
+        height: 12em;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #big-image > div > div > div > h4 {
+        font-size: 18px;
+    }
+    #services > div > div > div.col-md-12.service-content > div > div {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    #about > div > div > div > div.about-text > p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #services > div > div > div.col-md-12.service-content > div > div {
+        width: 100% !important;
+    }
+    #skills > div > div > div.col-md-12.progress-bar-wrapper {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    #big-image {
+        padding-top: 0em;
+    }
+    #big-image > div > div > div > h4 {
+        font-size: 16px;
+    }
+    #about {
+        height: 47em;
+    }
+    #about > div > div > div > div.about-text {
+        padding-top: 9em;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    #our-work > div > div > div.col-md-12.new-style {
+        height: 7em;
+    }
+}
