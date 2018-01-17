@@ -3044,6 +3044,115 @@ footer p a {
 
 /*****************************************/
 
+/* 3. Hero Section
+--------------------------------- */
+.hero-section-yt-light {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: -100px;
+    position: relative;
+}
+.video-background {
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground { width: 300%; left: -100%; }
+}
+
+.hero-logo {
+    margin-top: 330px;
+    overflow: hidden;
+}
+
+.hero-section-yt-light #particles-js {
+    width: 950px;
+    height: 280px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 330px;
+}
+
+.hero-section-yt-light .typed-text {
+    height: 50px;
+}
+
+.hero-section-yt-light .typed-text .skilltechtypetext {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.hero-section-yt-light .typed-text .typed-cursor,
+.typed-headline .typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    color: #ffffff;
+}
+
+.hero-section-yt-light .typed-text .typed-cursor {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
 /* 10. Skills Section
 --------------------------------- */
 .skills-section {
@@ -3169,8 +3278,12 @@ footer p a {
     #about > div > div > div > div.about-text {
         height: 40em;
     }
-    #skills > div > div > div > div {
-        padding: 2em;
+    #skills > div {
+        padding: 1em;
+    }
+    #skills > div > div > div:nth-child(1) > div {
+        padding: 0em 2em 4em 2em;
+        margin-bottom: 0;
     }
 }
 
@@ -3192,6 +3305,20 @@ footer p a {
     }
     #about > div > div > div > div.about-text {
         height: 40em;
+    }
+}
+@media only screen and (max-width: 715px) {
+    #services > div > div > div.col-md-12.service-content > div.right  {
+        margin-top: 3em;
+    }
+    #services > div > div > div.col-md-12.service-content > div > div > div.text > h4 {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 698px) {
+    #services > div > div > div.col-md-12.service-content > div > div > div.text > h4 {
+        text-align: left;
     }
 }
 
@@ -3220,11 +3347,40 @@ footer p a {
     #about > div > div > div > div.about-images > div.mockup, #about > div > div > div > div.about-text > ul {
         display: none;
     }
+    #skills {
+        height: 65em;
+    }
+    #contact {
+        height: 100em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #our-work > div > div > div.col-md-12.see-work {
+        height: 12em;
+    }
 }
 
 @media only screen and (max-width: 430px) {
     #big-image > div > div > div > h4 {
         font-size: 18px;
+    }
+    #services > div > div > div.col-md-12.service-content > div > div {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    #about > div > div > div > div.about-text > p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #services > div > div > div.col-md-12.service-content > div > div {
+        width: 100% !important;
+    }
+    #skills > div > div > div.col-md-12.progress-bar-wrapper {
+        padding-left: 3px;
+        padding-right: 3px;
     }
 }
 
@@ -3232,8 +3388,19 @@ footer p a {
     #big-image {
         padding-top: 0em;
     }
-    
     #big-image > div > div > div > h4 {
         font-size: 16px;
+    }
+    #about {
+        height: 47em;
+    }
+    #about > div > div > div > div.about-text {
+        padding-top: 9em;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    #our-work > div > div > div.col-md-12.new-style {
+        height: 7em;
     }
 }

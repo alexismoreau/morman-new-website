@@ -54,12 +54,14 @@
     new WOW().init();
 
     // Scrolling Navigation
-    $('a.page-scroll').bind('click', function (event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
+    $(function () {
+        $('a.page-scroll').bind('click', function (event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1500, 'easeInOutExpo');
+            event.preventDefault();
+        });
     });
 
     // Counter Up Init
@@ -72,7 +74,7 @@
     particlesJS("particles-js", {
         "particles": {
             "number": {
-                "value": 90,
+                "value": 123,
                 "density": {
                     "enable": true,
                     "value_area": 800
@@ -97,7 +99,7 @@
                 }
             },
             "opacity": {
-                "value": 0.15,
+                "value": 0.5,
                 "random": false,
                 "anim": {
                     "enable": false,
@@ -107,7 +109,7 @@
                 }
             },
             "size": {
-                "value": 5,
+                "value": 3,
                 "random": true,
                 "anim": {
                     "enable": false,
@@ -120,12 +122,12 @@
                 "enable": true,
                 "distance": 150,
                 "color": "FFFFFF",
-                "opacity": 0.1,
+                "opacity": 0.5,
                 "width": 1
             },
             "move": {
                 "enable": true,
-                "speed": 1,
+                "speed": 4,
                 "direction": "none",
                 "random": false,
                 "straight": false,
@@ -147,26 +149,26 @@
                 },
                 "onclick": {
                     "enable": true,
-                    "mode": "bubble"
+                    "mode": "repulse"
                 },
                 "resize": true
             },
             "modes": {
                 "grab": {
-                    "distance": 350,
+                    "distance": 231,
                     "line_linked": {
-                        "opacity": 0.65
+                        "opacity": 1
                     }
                 },
                 "bubble": {
-                    "distance": 350,
+                    "distance": 231,
                     "size": 12,
                     "duration": 1.542946703372556,
                     "opacity": 0.9,
                     "speed": 3
                 },
                 "repulse": {
-                    "distance": 350,
+                    "distance": 231,
                     "duration": 0.4
                 },
                 "push": {
@@ -182,14 +184,68 @@
 
     // Typed JS
     $(".skilltechtypetext").typed({
+        // This is were you need to change the text
         strings: sentences,
-        contentType: 'text', // 'html' or 'text'
+        contentType: 'html',
         typeSpeed: 30,
         loop: true,
         backDelay: 1200,
         showCursor: true,
         cursorChar: "|"
     });
+
 })(jQuery);
+
+"use strict";
+// YouTube
+// This code loads the IFrame Player API code asynchronously.
+var tag = document.createElement('script');
+
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+//  This function creates an <iframe> (and YouTube player)
+//   after the API code downloads.
+var player;
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('yt-player', {
+        // This is where you paste video's ID
+        videoId: videoId,
+        playerVars: {
+            'autoplay': 1,
+            'controls': 0,
+            'autohide':1,
+            'enablejsapi':1,
+            'loop':1,
+            'disablekb':1,
+            'fs': 0,
+            'modestbranding': 0,
+            'showinfo': 0,
+            'color': 'white',
+            'theme': 'dark',
+            'rel':0
+        },
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+}
+// The API will call this function when the video player is ready.
+function onPlayerReady(event) {
+    event.target.playVideo();
+    player.mute();
+    player.setVolume(0);
+    player.setLoop(true);
+}
+// The API will call this function when the video player's state changes.
+function onPlayerStateChange(event) {
+    if (event.data === 0) {
+        player.playVideo();
+    }
+}
+
+
 
 
