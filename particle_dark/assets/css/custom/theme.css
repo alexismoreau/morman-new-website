@@ -1783,7 +1783,7 @@ footer p a {
     height: 100%;
     width: 100%;
     margin-top: -100px;
-    background: url('../../images/service-item.jpg') fixed;
+    background: url('../../images/randonnée_1.jpg') fixed;
     background-size: cover;
     position: relative;
 }
@@ -3487,4 +3487,8 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #our-work > div > div > div.col-md-12.new-style {
         height: 7em;
     }
+}
+
+#services > div{
+  margin-top: -50px;
 }
