@@ -3232,6 +3232,8 @@ footer p a {
 
 #big-image > div > div > div > a > button {
     width: 200px;
+    margin: 1em auto;
+    display: block;
 }
 
 #our-work > div > div > div.col-md-12.portfolio-images > div {
@@ -3249,7 +3251,18 @@ footer p a {
     width: 100%;
     margin-left: 0px;
     min-height: 30em;
-    border:5px solid black;
+    border: 1em solid black;
+}
+
+#big-image > div, #portfolio-details > div {
+    background: #101c26;
+    opacity: 0.9;
+    padding: 1em;
+    text-align: center;
+}
+
+#big-image > div > div > div > h4, #portfolio-details > div > div > div > h4{
+    font-style: normal;
 }
 
 #our-work > div > div > div.col-md-12.portfolio-images > div > div > div.sweep-from-center > div {
@@ -3296,6 +3309,11 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 #quote > div.container-fluid > div > div.col-md-12.quote-bottom > div {
     background: #101c26;
     opacity: 0.9;
+    padding: 1em;
+}
+
+#services > div > div > div.col-md-12.service-headline {
+    margin-bottom: 0;
 }
 
 #contact > div.container > div > div > div.contact-content > div {
@@ -3320,6 +3338,14 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 #contact > div.container > div > div > div.contact-headline {
     background: #101c26;
     opacity: 0.9;
+}
+
+#services {
+    padding-top: 18em;
+}
+
+#quote > div.container-fluid > div > div.col-md-12.quote-bottom {
+    height: auto;
 }
 
 @media only screen and (max-width: 1200px) {
