@@ -3248,6 +3248,7 @@ footer p a {
     width: 100%;
     margin-left: 0px;
     min-height: 30em;
+    border:5px solid black;
 }
 
 #our-work > div > div > div.col-md-12.portfolio-images > div > div > div.sweep-from-center > div {
@@ -3280,6 +3281,16 @@ footer p a {
 
 #quote > div > div > div.col-md-12.quote-headline {
     background: black;
+}
+
+#quote > div.container-fluid > div > div.col-md-12.quote-bottom > div {
+    background: #101c26;
+    opacity: 0.9;
+}
+
+#contact > div.container > div > div > div.contact-content > div {
+    background: #101c26;
+    opacity: 0.9;
 }
 
 @media only screen and (max-width: 1200px) {
