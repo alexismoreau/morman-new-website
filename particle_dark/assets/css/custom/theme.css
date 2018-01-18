@@ -3268,6 +3268,11 @@ footer p a {
     opacity: 0.6;
 }
 
+#hero > div.container-fluid > div > div > div.typed-text {
+    width: 85%;
+    margin: auto;
+}
+
 #hero > div.container-fluid > div > div > div.hero-logo {
     margin-top: 40em;
 }
