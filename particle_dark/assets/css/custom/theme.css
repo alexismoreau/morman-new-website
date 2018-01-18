@@ -3307,6 +3307,21 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     line-height: 8em;
 }
 
+.filedattente {
+    background: url(../../images/image-serpentins.jpg) no-repeat 50% 50% fixed;
+    padding-top: 9%;
+}
+
+.filedattente > div {
+    background: #101c26;
+    opacity: 0.9;
+}
+
+#contact > div.container > div > div > div.contact-headline {
+    background: #101c26;
+    opacity: 0.9;
+}
+
 @media only screen and (max-width: 1200px) {
     #our-work {
         height: 45em;
