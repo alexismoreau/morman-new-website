@@ -1489,7 +1489,7 @@ footer p a {
     height: 100%;
     width: 100%;
     margin-top: -100px;
-    background: url('../../images/portfolio-item.jpg') 100% 100% fixed;
+    background: url('../../images/attente.jpg') 100% 100% fixed;
     background-size: cover;
     position: relative;
 }
@@ -1620,7 +1620,7 @@ footer p a {
 }
 
 .portfolio-item-details {
-    background: url("../../images/image-section.jpg");
+    background: url("../../images/attente.jpg");
     padding: 45px 0;
     background-size: cover;
 }
