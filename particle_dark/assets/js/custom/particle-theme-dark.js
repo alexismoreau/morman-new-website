@@ -183,13 +183,11 @@
     // Typed JS
     $(".skilltechtypetext").typed({
         strings: sentences,
-        contentType: 'text', // 'html' or 'text'
-        typeSpeed: 30,
-        loop: true,
+        contentType: 'html', // 'html' or 'text'
+        typeSpeed: 10,
+        loop: false,
         backDelay: 1200,
         showCursor: true,
         cursorChar: "|"
     });
 })(jQuery);
-
-

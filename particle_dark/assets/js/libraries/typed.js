@@ -429,9 +429,9 @@
 		// starting callback function before each string
 		preStringTyped: function() {},
 		//callback for every typed string
-		onStringTyped: function() {},
+		// onStringTyped: function() {},
 		// callback for reset
-		resetCallback: function() {}
+		// resetCallback: function() {}
 	};
 
 
