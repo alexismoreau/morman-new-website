@@ -357,7 +357,8 @@ header #st-logo img {
     left: 50%;
     right: 50%;
     bottom: 0;
-    background: rgba(255, 255, 255, .7);
+    background: #dc924f;
+    opacity: 0.7;
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
