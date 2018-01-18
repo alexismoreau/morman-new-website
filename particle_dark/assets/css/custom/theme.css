@@ -3265,6 +3265,47 @@ footer p a {
     font-style: normal;
 }
 
+#quote {
+    height: 45em;
+}
+
+#wedo > div > div > div > div > h3 > span {
+    color: #dc924f;
+}
+
+#wedo > div > div > div > div > h3 {
+    color: #A4C2D6;
+}
+
+#wedo > div > div > div > div {
+    margin: 0;
+}
+
+#wedo {
+    height: 41em;
+    background: black;
+}
+
+#wedo > div > div > div > div > a > button {
+    visibility: visible;
+    animation-name: fadeInRight;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 25px;
+    background-color: #dc924f;
+}
+#wedo > div > div > div > div > a > button:hover {
+    background-color: #40464f;
+}
+    
+
 #our-work > div > div > div.col-md-12.portfolio-images > div > div > div.sweep-from-center > div {
     padding-top: 16%;
 }
@@ -3338,10 +3379,6 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 #contact > div.container > div > div > div.contact-headline {
     background: #101c26;
     opacity: 0.9;
-}
-
-#services {
-    padding-top: 18em;
 }
 
 #quote > div.container-fluid > div > div.col-md-12.quote-bottom {
