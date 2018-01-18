@@ -21,7 +21,7 @@
 footer p a:hover,
 .portfolio-icons li a i,
 .service-icons li a i {
-    color: #9600f4;
+    color: #dc4fa8;
 }
 
 
@@ -31,22 +31,22 @@ footer p a:hover,
 .service-icons li a:hover,
 .service-form .btn-default:hover,
 .portfolio-form .btn-default:hover {
-    background-color: #9600f4;
+    background-color: #dc4fa8;
 }
 
 .contact-form .btn-default:hover,
 .service-form .btn-default:hover,
 .portfolio-form .btn-default:hover {
-    border-color: #9600f4;
+    border-color: #dc4fa8;
 }
 
 /* primary color 2 */
 .st-nav-trigger {
-    box-shadow: 0 0 10px #7100B7;
+    box-shadow: 0 0 10px #963171;
 }
 
 #st-nav #st-main-nav ul.is-visible {
-    box-shadow: 0 0 10px #7100B7;
+    box-shadow: 0 0 10px #963171;
 }
 
 .st-nav-trigger span,
@@ -55,12 +55,12 @@ footer p a:hover,
 .image-section .btn-lg,
 .social-icons li a,
 .portfolio-headline .btn-default {
-    background: #7100B7;
+    background: #963171;
 }
 
 /* primary color 3 */
 .sweep-icon a .fa {
-    color: #B649FF;
+    color: #963171;
 }
 
 /* secondary color */
@@ -86,20 +86,20 @@ footer p a:hover,
 /* secondary and primary 2 */
 .hero-layer,
 .call-to-layer {
-    background-image: -ms-linear-gradient(left, #00F2FF 0%, #7100B7 100%);
-    background-image: -moz-linear-gradient(left, #00F2FF 0%, #7100B7 100%);
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00F2FF), color-stop(1, #7100B7));
-    background-image: -webkit-linear-gradient(left, #00F2FF, #7100B7 100%);
-    background-image: linear-gradient(to right, #00F2FF, #7100B7 100%);
+    background-image: -ms-linear-gradient(left, #00F2FF 0%, #963171 100%);
+    background-image: -moz-linear-gradient(left, #00F2FF 0%, #963171 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00F2FF), color-stop(1, #963171));
+    background-image: -webkit-linear-gradient(left, #00F2FF, #963171 100%);
+    background-image: linear-gradient(to right, #00F2FF, #963171 100%);
 }
 
 .portfolio-img .sweep-left,
 .portfolio-img .sweep-right {
-    background-image: -ms-linear-gradient(left, #7100B7 0%, #00F2FF 100%);
-    background-image: -moz-linear-gradient(left, #7100B7 0%, #00F2FF 100%);
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #7100B7), color-stop(1, #00F2FF));
-    background-image: -webkit-linear-gradient(left, #7100B7, #00F2FF 100%);
-    background-image: linear-gradient(to right, #7100B7, #00F2FF 100%);
+    background-image: -ms-linear-gradient(left, #963171 0%, #00F2FF 100%);
+    background-image: -moz-linear-gradient(left, #963171 0%, #00F2FF 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #963171), color-stop(1, #00F2FF));
+    background-image: -webkit-linear-gradient(left, #963171, #00F2FF 100%);
+    background-image: linear-gradient(to right, #963171, #00F2FF 100%);
 }
 
 /* secondary 2 and primary 4 */
