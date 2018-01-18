@@ -104,9 +104,9 @@ footer p a:hover,
 
 /* secondary 2 and primary 4 */
 .gradient {
-    background-image: -ms-linear-gradient(left, #00BBFF 0%, #D42BFF 100%);
-    background-image: -moz-linear-gradient(left, #00BBFF 0%, #D42BFF 100%);
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00BBFF), color-stop(1, #D42BFF));
-    background-image: -webkit-linear-gradient(left, #00BBFF, #D42BFF 100%);
-    background-image: linear-gradient(to right, #00BBFF, #D42BFF 100%);
+    background-image: -ms-linear-gradient(left, #00BBFF 0%, #dc924f 100%);
+    background-image: -moz-linear-gradient(left, #00BBFF 0%, #dc924f 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00BBFF), color-stop(1, #dc924f));
+    background-image: -webkit-linear-gradient(left, #00BBFF, #dc924f 100%);
+    background-image: linear-gradient(to right, #00BBFF, #dc924f 100%);
 }
