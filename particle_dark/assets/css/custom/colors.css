@@ -21,7 +21,7 @@
 footer p a:hover,
 .portfolio-icons li a i,
 .service-icons li a i {
-    color: #dc924f;
+    color: #f79824;
 }
 
 
@@ -31,13 +31,13 @@ footer p a:hover,
 .service-icons li a:hover,
 .service-form .btn-default:hover,
 .portfolio-form .btn-default:hover {
-    background-color: #dc924f;
+    background-color: #f79824;
 }
 
 .contact-form .btn-default:hover,
 .service-form .btn-default:hover,
 .portfolio-form .btn-default:hover {
-    border-color: #dc924f;
+    border-color: #f79824;
 }
 
 /* primary color 2 */
@@ -104,9 +104,9 @@ footer p a:hover,
 
 /* secondary 2 and primary 4 */
 .gradient {
-    background-image: -ms-linear-gradient(left, #00BBFF 0%, #dc924f 100%);
-    background-image: -moz-linear-gradient(left, #00BBFF 0%, #dc924f 100%);
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00BBFF), color-stop(1, #dc924f));
-    background-image: -webkit-linear-gradient(left, #00BBFF, #dc924f 100%);
-    background-image: linear-gradient(to right, #00BBFF, #dc924f 100%);
+    background-image: -ms-linear-gradient(left, #00BBFF 0%, #f79824 100%);
+    background-image: -moz-linear-gradient(left, #00BBFF 0%, #f79824 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00BBFF), color-stop(1, #f79824));
+    background-image: -webkit-linear-gradient(left, #00BBFF, #f79824 100%);
+    background-image: linear-gradient(to right, #00BBFF, #f79824 100%);
 }

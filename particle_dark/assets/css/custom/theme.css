@@ -357,7 +357,7 @@ header #st-logo img {
     left: 50%;
     right: 50%;
     bottom: 0;
-    background: #dc924f;
+    background: #f79824;
     opacity: 0.7;
     height: 4px;
     -webkit-transition-property: left, right;
@@ -3274,7 +3274,7 @@ footer p a {
 }
 
 #wedo > div > div > div > div > h3 > span {
-    color: #dc924f;
+    color: #f79824;
 }
 
 #wedo > div > div > div > div > h3 {
@@ -3303,7 +3303,7 @@ footer p a {
     font-size: 14px;
     font-weight: 400;
     margin-top: 25px;
-    background-color: #dc924f;
+    background-color: #f79824;
 }
 #wedo > div > div > div > div > a > button:hover {
     background-color: #40464f;
