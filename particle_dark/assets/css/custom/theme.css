@@ -3373,6 +3373,11 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 .filedattente {
     background: url(../../images/image-serpentins.jpg) no-repeat 50% 50% fixed;
     padding-top: 9%;
+    height: 45em;
+}
+
+#page-top > section.service-item > div.container-fluid > div > div > div.service-headline-text > div > a {
+    color: #f79824;
 }
 
 .filedattente > div {
@@ -3411,6 +3416,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         margin:  auto;
         display:  block;
     }
+    body > section.portfolio-item > div.container-fluid > div > div > div {
+        height: 200px;
+    }
 }
 
 @media only screen and (max-width: 1070px) {
@@ -3422,6 +3430,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         width: 70%;
         margin: auto;
         float: none;
+    }
+    #st-logo {
+        padding-top: 25px;
     }
 }
 
@@ -3483,6 +3494,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     body > section.portfolio-item > div.container-fluid > div > div > div > div.container > div > div > div {
         line-height: 5em;
     }
+    body > section.portfolio-item > div.container-fluid > div > div > div {
+        height: 225px;
+    }
 }
 
 @media only screen and (max-width: 536px) {
@@ -3531,6 +3545,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #services > div > div > div.col-md-12.service-content > div > div {
         width: 100% !important;
     }
+    .filedattente {
+        height: 55em;
+    }
 }
 
 @media only screen and (max-width: 370px) {
@@ -3548,6 +3565,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     body > section.portfolio-item > div.container-fluid > div > div > div > div.container > div > div > div {
         line-height: 3em;
     }
+    .filedattente {
+        height: 60em;
+    }
 }
 
 @media only screen and (max-width: 330px) {
@@ -3563,14 +3583,20 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #about > div > div > div > div.about-text {
         padding-top: 9em;
     }
+    .filedattente {
+        height: 70em;
+    }
 }
 
 @media only screen and (max-width: 321px) {
     #our-work > div > div > div.col-md-12.new-style {
         height: 7em;
     }
+    .filedattente {
+        height: 75em;
+    }
 }
 
-#services > div{
+#services > div {
   margin-top: -50px;
 }
