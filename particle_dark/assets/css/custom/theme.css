@@ -3337,7 +3337,8 @@ footer p a {
 }
 
 #hero > div.container-fluid > div > div > div.hero-logo {
-    margin-top: 40em;
+    padding-bottom: 0;
+    margin-top: 30em;
 }
 
 #about > div > div > div > div.about-text > h3 > span {
@@ -3588,6 +3589,10 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #wedo {
         padding-top: 4em;
+    }
+    #skills > div > div > div.col-md-12.progress-bar-wrapper {
+        padding-right: 5px;
+        padding-left: 5px;
     }
 }
 
