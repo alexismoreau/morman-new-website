@@ -3283,6 +3283,11 @@ footer p a {
 
 #wedo > div > div > div > div {
     margin: 0;
+    padding: 1em;
+}
+
+#wedo > div {
+    padding: 0;
 }
 
 #wedo {
@@ -3319,7 +3324,7 @@ footer p a {
 }
 
 #quote > div > div > div.col-md-12.quote-bottom {
-    padding-top: 80px;
+    padding-top: 68px;
 }
 
 #yt-player {
@@ -3394,6 +3399,10 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     height: auto;
 }
 
+.not-visible-little-screens {
+    display: none;
+}
+
 @media only screen and (max-width: 1200px) {
     #our-work {
         height: 45em;
@@ -3450,6 +3459,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         padding: 0em 2em 4em 2em;
         margin-bottom: 0;
     }
+    #quote > div.container-fluid > div > div.col-md-12.quote-bottom {
+        height: 34em;
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -3488,6 +3500,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #services > div > div > div.col-md-12.service-content > div > div > div.text > h4 {
         text-align: left;
     }
+    #big-image {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 578px) {
@@ -3496,6 +3511,23 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     body > section.portfolio-item > div.container-fluid > div > div > div {
         height: 225px;
+    }
+    .not-visible-little-screens {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+    }
+    .not-visible-little-screens > h3 > a {
+        color: #f79824;
+    }
+    #our-work {
+        height: 36em;
+    }
+    .not-visible-little-screens > p {
+        color: white;
+    }
+    #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img {
+        display: none;
     }
 }
 
@@ -3516,7 +3548,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         height: 38em;
     }
     #about > div > div > div > div.about-text {
-        padding-top: 5em;
+        padding-top: 9em;
     }
     #about > div > div > div > div.about-text {
         height: 44em;
@@ -3548,6 +3580,15 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     .filedattente {
         height: 55em;
     }
+    #services {
+        padding-top: 15em;
+    }
+    #quote > div.container-fluid > div > div.col-md-12.quote-bottom {
+        height: 42em;
+    }
+    #wedo {
+        padding-top: 4em;
+    }
 }
 
 @media only screen and (max-width: 370px) {
@@ -3567,6 +3608,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     .filedattente {
         height: 60em;
+    }
+    #wedo {
+        height: 50em;
     }
 }
 
@@ -3595,6 +3639,12 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     .filedattente {
         height: 75em;
     }
+    #wedo {
+        height: 60em;
+    }
+    #our-work > div > div > div.col-md-12.see-work {
+        height: 15em;
+    }   
 }
 
 #services > div {
