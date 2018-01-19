@@ -3269,6 +3269,10 @@ footer p a {
     height: 44em;
 }
 
+#st-logo {
+    top: 30px !important;
+}
+
 #wedo > div > div > div > div > h3 > span {
     color: #dc924f;
 }
