@@ -60,7 +60,7 @@ footer p a:hover,
 
 /* primary color 3 */
 .sweep-icon a .fa {
-    color: #bf8046;
+    color: #f79824;
 }
 
 /* secondary color */
@@ -86,20 +86,20 @@ footer p a:hover,
 /* secondary and primary 2 */
 .hero-layer,
 .call-to-layer {
-    background-image: -ms-linear-gradient(left, #00F2FF 0%, #bf8046 100%);
-    background-image: -moz-linear-gradient(left, #00F2FF 0%, #bf8046 100%);
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00F2FF), color-stop(1, #bf8046));
-    background-image: -webkit-linear-gradient(left, #00F2FF, #bf8046 100%);
-    background-image: linear-gradient(to right, #00F2FF, #bf8046 100%);
+    background-image: -ms-linear-gradient(left, #00F2FF 0%, #f79824 100%);
+    background-image: -moz-linear-gradient(left, #00F2FF 0%, #f79824 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00F2FF), color-stop(1, #f79824));
+    background-image: -webkit-linear-gradient(left, #00F2FF, #f79824 100%);
+    background-image: linear-gradient(to right, #00F2FF, #f79824 100%);
 }
 
 .portfolio-img .sweep-left,
 .portfolio-img .sweep-right {
-    background-image: -ms-linear-gradient(left, #bf8046 0%, #00F2FF 100%);
-    background-image: -moz-linear-gradient(left, #bf8046 0%, #00F2FF 100%);
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #bf8046), color-stop(1, #00F2FF));
-    background-image: -webkit-linear-gradient(left, #bf8046, #00F2FF 100%);
-    background-image: linear-gradient(to right, #bf8046, #00F2FF 100%);
+    background-image: -ms-linear-gradient(left, #f79824 0%, #00F2FF 100%);
+    background-image: -moz-linear-gradient(left, #f79824 0%, #00F2FF 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #f79824), color-stop(1, #00F2FF));
+    background-image: -webkit-linear-gradient(left, #f79824, #00F2FF 100%);
+    background-image: linear-gradient(to right, #f79824, #00F2FF 100%);
 }
 
 /* secondary 2 and primary 4 */
