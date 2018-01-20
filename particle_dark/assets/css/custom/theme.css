@@ -3488,10 +3488,10 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #quote > div.container-fluid > div > div.col-md-12.quote-bottom {
         height: 34em;
     }
-    #service > div > div > div.service-2.wow.fadeIn.animated {
+    #services > div > div > div.service-2.wow.fadeIn.animated {
         width: 100%;
     }
-    #service > div > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div > div {
+    #services > div > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div > div {
         margin-left: 0px;
         width: 100%;
         text-align: center;
@@ -3522,8 +3522,8 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
 }
 
-@media only screen and (max-width: 768px) {
-    #service {
+@media only screen and (max-width: 767px) {
+    #page-top > section:nth-child(10) {
         display: none;
     }
 }
