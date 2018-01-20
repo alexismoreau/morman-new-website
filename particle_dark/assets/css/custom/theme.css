@@ -996,7 +996,7 @@ header #st-logo img {
 .service-2 .text {
     width: 250px;
     text-align: left;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .service .icons,
@@ -3488,6 +3488,14 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #quote > div.container-fluid > div > div.col-md-12.quote-bottom {
         height: 34em;
     }
+    #service > div > div > div.service-2.wow.fadeIn.animated {
+        width: 100%;
+    }
+    #service > div > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div > div {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -3513,6 +3521,13 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         line-height: 7em;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    #service {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 715px) {
     #services > div > div > div.col-md-12.service-content > div.right  {
         margin-top: 3em;
