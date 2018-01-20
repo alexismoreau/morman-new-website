@@ -1010,6 +1010,31 @@ header #st-logo img {
     font-size: 37px;
 }
 
+.service .icons-vert,
+.service-2 .icons-vert {
+    display: block;
+    margin: auto;
+    vertical-align: top;
+}
+
+.service .icons-vert i,
+.service-2 .icons-vert i {
+    font-size: 37px;
+    text-align:center;
+}
+
+.service .icons-rouge,
+.service-2 .icons-rouge {
+  display: block;
+  margin: auto;
+  vertical-align: top;
+}
+
+.service .icons-rouge i,
+.service-2 .icons-rouge i {
+    font-size: 37px;
+}
+
 .service-image {
     padding: 0;
     margin: 0 10px;
@@ -3313,7 +3338,7 @@ footer p a {
 #wedo > div > div > div > div > a > button:hover {
     background-color: #40464f;
 }
-    
+
 
 #our-work > div > div > div.col-md-12.portfolio-images > div > div > div.sweep-from-center > div {
     padding-top: 16%;
@@ -3649,7 +3674,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #our-work > div > div > div.col-md-12.see-work {
         height: 15em;
-    }   
+    }
 }
 
 #services > div {

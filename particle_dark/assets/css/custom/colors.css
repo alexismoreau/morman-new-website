@@ -24,6 +24,13 @@ footer p a:hover,
     color: #f79824;
 }
 
+.service-2 .icons-vert i {
+  color: #34C924
+}
+
+.service-2 .icons-rouge i {
+  color: #FF0000
+}
 
 .social-icons li a:hover,
 .contact-form .btn-default:hover,
