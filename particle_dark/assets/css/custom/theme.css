@@ -1068,7 +1068,7 @@ header #st-logo img {
     line-height: 44px;
     font-size: 25px;
     color: #ffffff;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-weight: 200;
     margin-top: 0;
 }
@@ -3449,12 +3449,16 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #page-top > section:nth-child(10) {
-    height: 108em;
+    height: 102em;
 }
 
 #services > div > div.service-2.wow.fadeIn.animated {
     width: 100%;
     padding-top: 8em;
+}
+
+#services > div > div.service-2.wow.fadeIn.animated > div > div > div.col-sm-2 {
+    width: 22.2%
 }
 
 .text2 {
@@ -3465,13 +3469,17 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     text-align: center;
 }
 
-#services > div > div:nth-child(4) > p {
+#services > div > div:nth-child(4) > p, #offres-alt > div > p {
     line-height: 40px;
     font-size: 24px;
     color: #ffffff;
     margin-bottom: 10px;
     font-weight: 200;
     margin-top: 0;
+}
+
+#offres-alt {
+    display: none;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -3541,6 +3549,12 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         width: 100%;
         text-align: center;
     }
+    #services > div > div.col-lg-12.service-content > div > div {
+        height: 24em;
+    }
+    #page-top > section:nth-child(10) {
+        height: 130em;
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -3571,6 +3585,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #page-top > section:nth-child(10) {
         display: none;
     }
+    #offres-alt {
+        display: block;
+    }   
 }
 
 @media only screen and (max-width: 715px) {
