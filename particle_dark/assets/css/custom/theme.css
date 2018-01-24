@@ -1351,7 +1351,8 @@ header #st-logo img {
 }
 
 .offre1 {
-    height: 210px;
+    height: 20em;
+    padding: 2em;
     width: 33%;
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.07);
@@ -3445,6 +3446,32 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 
 .not-visible-little-screens {
     display: none;
+}
+
+#page-top > section:nth-child(10) {
+    height: 108em;
+}
+
+#services > div > div.service-2.wow.fadeIn.animated {
+    width: 100%;
+    padding-top: 8em;
+}
+
+.text2 {
+    text-align: left;
+}
+
+#services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div:nth-child(2) > div > p,  #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div:nth-child(3) > div > p, #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div:nth-child(4) > div > p {
+    text-align: center;
+}
+
+#services > div > div:nth-child(4) > p {
+    line-height: 40px;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: 200;
+    margin-top: 0;
 }
 
 @media only screen and (max-width: 1200px) {
