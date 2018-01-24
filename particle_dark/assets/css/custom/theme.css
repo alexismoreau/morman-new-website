@@ -357,7 +357,7 @@ header #st-logo img {
     left: 50%;
     right: 50%;
     bottom: 0;
-    background: #f79824;
+    background: #ff701b;
     opacity: 0.7;
     height: 4px;
     -webkit-transition-property: left, right;
@@ -1064,6 +1064,15 @@ header #st-logo img {
     color: #77A3B2;
 }
 
+.service-2 .text2 p {
+    line-height: 44px;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
 /* 9. Call To Action Section
 --------------------------------- */
 .call-to-section {
@@ -1341,6 +1350,13 @@ header #st-logo img {
     overflow: hidden;
 }
 
+.offre1 {
+    height: 210px;
+    width: 33%;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.07);
+    overflow: hidden;
+}
 .contact-info {
     margin-right: 30px;
     padding: 30px 30px;
@@ -1354,6 +1370,7 @@ header #st-logo img {
 }
 
 .contact-info .contact-header,
+.offre1 .contact-header,
 .bottom-info h4,
 .contact-form h4 {
     font-size: 21px;
@@ -1364,6 +1381,7 @@ header #st-logo img {
 }
 
 .contact-info .contact-header span,
+
 .bottom-info h4 span,
 .contact-form h4 span {
     font-weight: 700;
@@ -3299,7 +3317,7 @@ footer p a {
 }
 
 #wedo > div > div > div > div > h3 > span {
-    color: #f79824;
+    color: #ff701b;
 }
 
 #wedo > div > div > div > div > h3 {
@@ -3333,7 +3351,7 @@ footer p a {
     font-size: 14px;
     font-weight: 400;
     margin-top: 25px;
-    background-color: #f79824;
+    background-color: #ff701b;
 }
 #wedo > div > div > div > div > a > button:hover {
     background-color: #40464f;
@@ -3408,7 +3426,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #page-top > section.service-item > div.container-fluid > div > div > div.service-headline-text > div > a {
-    color: #f79824;
+    color: #ff701b;
 }
 
 .filedattente > div {
@@ -3559,7 +3577,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         font-size: 18px;
     }
     .not-visible-little-screens > h3 > a {
-        color: #f79824;
+        color: #ff701b;
     }
     #our-work {
         height: 36em;

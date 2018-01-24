@@ -12,8 +12,8 @@
 .service-headline h2 span,
 .service-content p,
 .service .text a:hover,
-.service-2 .text a:hover,
 .service .icons i,
+.offre1 .contact-header span,
 .service-2 .icons i,
 .skills-headline h2 span,
 .our-work-section h2 span,
@@ -21,7 +21,7 @@
 footer p a:hover,
 .portfolio-icons li a i,
 .service-icons li a i {
-    color: #f79824;
+    color: #ff701b;
 }
 
 .service-2 .icons-vert i {
@@ -38,13 +38,13 @@ footer p a:hover,
 .service-icons li a:hover,
 .service-form .btn-default:hover,
 .portfolio-form .btn-default:hover {
-    background-color: #f79824;
+    background-color: #ff701b;
 }
 
 .contact-form .btn-default:hover,
 .service-form .btn-default:hover,
 .portfolio-form .btn-default:hover {
-    border-color: #f79824;
+    border-color: #ff701b;
 }
 
 /* primary color 2 */
@@ -62,12 +62,12 @@ footer p a:hover,
 .image-section .btn-lg,
 .social-icons li a,
 .portfolio-headline .btn-default {
-    background: #f79824;
+    background: #ff701b;
 }
 
 /* primary color 3 */
 .sweep-icon a .fa {
-    color: #f79824;
+    color: #ff701b;
 }
 
 /* secondary color */
@@ -93,27 +93,27 @@ footer p a:hover,
 /* secondary and primary 2 */
 .hero-layer,
 .call-to-layer {
-    background-image: -ms-linear-gradient(left, #00F2FF 0%, #f79824 100%);
-    background-image: -moz-linear-gradient(left, #00F2FF 0%, #f79824 100%);
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00F2FF), color-stop(1, #f79824));
-    background-image: -webkit-linear-gradient(left, #00F2FF, #f79824 100%);
-    background-image: linear-gradient(to right, #00F2FF, #f79824 100%);
+    background-image: -ms-linear-gradient(left, #00F2FF 0%, #ff701b 100%);
+    background-image: -moz-linear-gradient(left, #00F2FF 0%, #ff701b 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00F2FF), color-stop(1, #ff701b));
+    background-image: -webkit-linear-gradient(left, #00F2FF, #ff701b 100%);
+    background-image: linear-gradient(to right, #00F2FF, #ff701b 100%);
 }
 
 .portfolio-img .sweep-left,
 .portfolio-img .sweep-right {
-    background-image: -ms-linear-gradient(left, #f79824 0%, #00F2FF 100%);
-    background-image: -moz-linear-gradient(left, #f79824 0%, #00F2FF 100%);
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #f79824), color-stop(1, #00F2FF));
-    background-image: -webkit-linear-gradient(left, #f79824, #00F2FF 100%);
-    background-image: linear-gradient(to right, #f79824, #00F2FF 100%);
+    background-image: -ms-linear-gradient(left, #ff701b 0%, #00F2FF 100%);
+    background-image: -moz-linear-gradient(left, #ff701b 0%, #00F2FF 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #ff701b), color-stop(1, #00F2FF));
+    background-image: -webkit-linear-gradient(left, #ff701b, #00F2FF 100%);
+    background-image: linear-gradient(to right, #ff701b, #00F2FF 100%);
 }
 
 /* secondary 2 and primary 4 */
 .gradient {
-    background-image: -ms-linear-gradient(left, #00BBFF 0%, #f79824 100%);
-    background-image: -moz-linear-gradient(left, #00BBFF 0%, #f79824 100%);
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00BBFF), color-stop(1, #f79824));
-    background-image: -webkit-linear-gradient(left, #00BBFF, #f79824 100%);
-    background-image: linear-gradient(to right, #00BBFF, #f79824 100%);
+    background-image: -ms-linear-gradient(left, #00BBFF 0%, #ff701b 100%);
+    background-image: -moz-linear-gradient(left, #00BBFF 0%, #ff701b 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00BBFF), color-stop(1, #ff701b));
+    background-image: -webkit-linear-gradient(left, #00BBFF, #ff701b 100%);
+    background-image: linear-gradient(to right, #00BBFF, #ff701b 100%);
 }
