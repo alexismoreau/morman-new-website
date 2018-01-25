@@ -3478,6 +3478,10 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     margin-top: 0;
 }
 
+#services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(4) > div.col-sm-4 > div > p, #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(6) > div.col-sm-4 > div > p {
+    width: max-content;
+}
+
 #offres-alt {
     display: none;
 }
@@ -3554,6 +3558,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #page-top > section:nth-child(10) {
         height: 130em;
+    }
+    #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(4) > div.col-sm-4 > div > p, #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(6) > div.col-sm-4 > div > p {
+        width: unset;
     }
 }
 
