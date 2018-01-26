@@ -503,6 +503,14 @@ header #st-logo img {
     padding-bottom: 260px;
 }
 
+.image-service {
+    height: 700px;
+    width: 100%;
+    background: url("../../images/service-bottom.jpg") no-repeat 50% 50% fixed;
+    padding-top: 260px;
+    padding-bottom: 260px;
+}
+
 .image-section h3 {
     line-height: 1;
     font-size: 44px;
@@ -954,6 +962,14 @@ header #st-logo img {
     font-size: 16px;
     color: #7EACBC;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.services-bottom {
+    height: 400px;
+    background: url('../../images/quote-background.jpg') 50% 100% fixed;
+    text-align: center;
+    padding-top: 137px;
+    padding-bottom: 137px;
 }
 
 .service-content {
@@ -3270,7 +3286,7 @@ footer p a {
 }
 
 #big-image {
-    height: 52em;
+    height: 40em;
     padding-top: 10em;
 }
 
@@ -3448,7 +3464,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     display: none;
 }
 
-#page-top > section:nth-child(10) {
+#page-top > section:nth-child(11) {
     height: 102em;
 }
 
@@ -3598,7 +3614,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #offres-alt {
         display: block;
-    }   
+    }
 }
 
 @media only screen and (max-width: 715px) {
