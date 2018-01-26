@@ -802,7 +802,7 @@ header #st-logo img {
 .about-text p {
     line-height: 26px;
     font-size: 16px;
-    color: #9EC6D8;
+    color: #FFFFFF;
     font-weight: 300;
     margin-bottom: 40px;
 }
@@ -834,7 +834,7 @@ header #st-logo img {
     padding: 12px 0;
     font-size: 16px;
     line-height: 16px;
-    color: #647D89;
+    color: #FFFFFF;
     overflow: auto;
 }
 
@@ -960,7 +960,7 @@ header #st-logo img {
 .service-headline p {
     line-height: 26px;
     font-size: 16px;
-    color: #7EACBC;
+    color: #FFFFFF;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -1077,7 +1077,7 @@ header #st-logo img {
 .service-2 .text p {
     line-height: 24px;
     font-size: 15px;
-    color: #77A3B2;
+    color: #FFFFFF;
 }
 
 .service-2 .text2 p {
@@ -1535,7 +1535,7 @@ footer p {
 }
 
 footer p a {
-    color: #87A1AD;
+    color: #FFFFFF;
     -webkit-transition: all .4s ease 0s;
     -moz-transition: all .4s ease 0s;
     -o-transition: all .4s ease 0s;
@@ -3260,7 +3260,7 @@ footer p a {
 .skills-headline p {
     line-height: 26px;
     font-size: 16px;
-    color: #9EC6D8;
+    color: #FFFFFF;
     font-weight: 300;
 }
 
@@ -3301,7 +3301,7 @@ footer p a {
 }
 
 #services > div > div > div.col-md-12.service-content > div > div > div.text > h4, #skills > div > div > div.col-md-12.progress-bar-wrapper > div > div > div.col-md-3.col-sm-3.col-xs-4.wow.fadeIn.animated, #skills > div > div > div.col-md-12.progress-bar-wrapper > div > div > div.col-md-1.col-sm-1.col-xs-1 > span {
-    color: #A4C2D6;
+    color: #ffffff;
     font-size: 17px;
     line-height: 17px;
     font-weight: 700;
@@ -3338,7 +3338,7 @@ footer p a {
 }
 
 #wedo > div > div > div > div > h3 {
-    color: #A4C2D6;
+    color: #FFFFFF;
 }
 
 #wedo > div > div > div > div {
