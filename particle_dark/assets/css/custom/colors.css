@@ -80,7 +80,7 @@ footer p a:hover,
     color: #00F2FF;
 }
 
-#our-work > div > div > div.col-md-12.new-style > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > p {
+#our-work > div > div > div.col-md-12.new-style > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > p, #service-details > div > div > div.col-md-12.service-content > div.right > div > div.text > h4 {
     color: white;
 }
 
