@@ -72,12 +72,16 @@ footer p a:hover,
 }
 
 /* secondary color */
-.our-work-section .new-style p a {
-    color: #00F2FF;
+.our-work-section .new-style p a, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > a, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > h3 > a:hover, #about > div > div > div > div.about-text > h3 > span {
+    color: #ff701b;
 }
 
 .sweep-layer h3 a:hover {
     color: #00F2FF;
+}
+
+#our-work > div > div > div.col-md-12.new-style > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > p {
+    color: white;
 }
 
 /* Gradients */

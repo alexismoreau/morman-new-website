@@ -3542,7 +3542,10 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         height: 55em;
     }
     #about > div > div > div > div.about-text {
-        height: 35em;
+        height: 43em;
+    }
+    .offre1 {
+        height: 25em;
     }
     #quote {
         background-color: #0c161e;
@@ -3574,6 +3577,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #st-logo {
         padding-top: 25px;
     }
+    #our-work > div > div > div.col-md-12.see-work > h2 {
+        font-size: 36px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -3581,7 +3587,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         height: 60em;
     }
     #about > div > div > div > div.about-text {
-        height: 40em;
+        height: 44em;
     }
     #skills > div {
         padding: 1em;
@@ -3602,10 +3608,10 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         text-align: center;
     }
     #services > div > div.col-lg-12.service-content > div > div {
-        height: 24em;
+        height: 30em;
     }
     #page-top > section:nth-child(11) {
-        height: 130em;
+        height: 135em;
     }
     #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(4) > div.col-sm-4 > div > p, #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(6) > div.col-sm-4 > div > p {
         width: unset;
@@ -3625,11 +3631,8 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #our-work > div > div > div.col-md-12.see-work {
         height: 9em;
     }
-    #about {
-        height: 54em;
-    }
     #about > div > div > div > div.about-text {
-        height: 40em;
+        height: 45em;
     }
     body > section.portfolio-item > div.container-fluid > div > div > div > div.container > div > div > div {
         line-height: 7em;
@@ -3648,9 +3651,13 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 @media only screen and (max-width: 715px) {
     #services > div > div > div.col-md-12.service-content > div.right  {
         margin-top: 3em;
+        height: 32em;
     }
     #services > div > div > div.col-md-12.service-content > div > div > div.text > h4 {
         text-align: right;
+    }
+    #wedo {
+        height: 48em;
     }
 }
 
@@ -3697,10 +3704,10 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         font-size: 20px;
     }
     #our-work > div > div > div.col-md-12.new-style {
-        height: 5em;
+        height: 7em;
     }
     #about {
-        height: 40em;
+        height: 50em;
     }
     #about > div > div > div > div.about-text {
         height: 38em;
@@ -3720,11 +3727,20 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #contact {
         height: 100em;
     }
+    #wedo {
+        height: 52em;
+    }
 }
 
 @media only screen and (max-width: 480px) {
     #our-work > div > div > div.col-md-12.see-work {
         height: 12em;
+    }
+    #contact > div > div > div > div.contact-content > div.contact-form {
+        height: 39em;
+    }
+    #wedo {
+        height: 54em;
     }
 }
 
@@ -3738,8 +3754,11 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     .filedattente {
         height: 55em;
     }
+    #about {
+        height: 60em;
+    }
     #services {
-        padding-top: 15em;
+        padding-top: 20em;
     }
     #quote > div.container-fluid > div > div.col-md-12.quote-bottom {
         height: 42em;
@@ -3750,6 +3769,13 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #skills > div > div > div.col-md-12.progress-bar-wrapper {
         padding-right: 5px;
         padding-left: 5px;
+    }
+    #quote > div.container-fluid > div > div.col-md-12.quote-headline {
+        height: 17em;
+    }
+    #offres-alt {
+        height: 20em;
+        padding-top: 10em;
     }
 }
 
@@ -3772,7 +3798,14 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         height: 60em;
     }
     #wedo {
-        height: 50em;
+        height: 62em;
+    }
+    #offres-alt {
+        height: 32em;
+        padding-top: 18em;
+    }
+    #skills {
+        height: 80em;
     }
 }
 
@@ -3784,13 +3817,17 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         font-size: 16px;
     }
     #about {
-        height: 47em;
+        height: 55em;
     }
     #about > div > div > div > div.about-text {
         padding-top: 9em;
     }
     .filedattente {
         height: 70em;
+    }
+    #offres-alt {
+        height: 38em;
+        padding-top: 22em;
     }
 }
 
@@ -3802,10 +3839,14 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         height: 75em;
     }
     #wedo {
-        height: 60em;
+        height: 68em;
     }
     #our-work > div > div > div.col-md-12.see-work {
         height: 15em;
+    }
+    #offres-alt {
+        height: 42em;
+        padding-top: 28em;
     }
 }
 
