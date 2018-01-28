@@ -2271,10 +2271,6 @@ footer p a {
         margin-left: 60px;
     }
 
-    .service-content .service-image {
-        display: none;
-    }
-
     .service-content .left {
         margin-right: 15px;
     }
@@ -3578,7 +3574,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     body > section.portfolio-item > div.container-fluid > div > div > div {
         height: 200px;
     }
-
+    #contact > div > div > div > div.contact-content > div.contact-form, #contact > div > div > div > div.contact-content > div.contact-info {
+        height: 38em;
+    }
 }
 
 @media only screen and (max-width: 1070px) {
@@ -3596,6 +3594,12 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #our-work > div > div > div.col-md-12.see-work > h2 {
         font-size: 36px;
+    }
+    #services-attente {
+        height: 165em;
+    }
+    #services-attente > div > div > div.col-md-12.service-content > div {
+        width: 100%;
     }
 }
 
@@ -3676,6 +3680,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #wedo {
         height: 48em;
     }
+    #services-attente {
+        height: 180em;
+    }
 }
 
 @media only screen and (max-width: 698px) {
@@ -3746,6 +3753,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #wedo {
         height: 52em;
+    }
+    #services-attente {
+        height: 190em;
     }
 }
 
