@@ -3375,8 +3375,12 @@ footer p a {
     padding-top: 16%;
 }
 
-#about > div > div > div > div.about-text {
+#about > div > div > div > div.about-text, #about2 > div > div > div > div.about-text, #about3 > div > div > div > div.about-text {
     padding-top: 30px;
+}
+
+#about2 {
+    height: 32em;
 }
 
 #quote > div > div > div.col-md-12.quote-bottom {
@@ -3482,11 +3486,15 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #services > div > div.service-2.wow.fadeIn.animated > div > div > div.col-sm-2 {
-    width: 22.2%
+    width: 22.2%;
 }
 
 .text2 {
     text-align: left;
+}
+#asterisque {
+    float: right;
+    color: white;
 }
 
 #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div:nth-child(2) > div > p,  #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div:nth-child(3) > div > p, #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div:nth-child(4) > div > p {
@@ -3530,15 +3538,16 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     margin-top: 0;
 }
 
-#our-work > div > div > div.col-md-12.see-work > h2, #about > div > div > div > div.about-text > h2, #services > div > div > div.col-md-12.service-headline > h2, #services > div > div:nth-child(1) > h2, #call-to > div.container > div > div > h3, #skills > div > div > div > div > h2, #contact > div > div > div > div.contact-headline > h3 > span, #page-top > section.service-item > div.container-fluid > div > div > div.typed-headline > span.skilltechtypetext {
-    font-size: 50px;
-}
 
-#wedo > div > div > div > div > h3, #about > div > div > div > div.about-text > h3 > span, #quote > div.container-fluid > div > div.col-md-12.quote-headline > h4, #services > div > div.col-lg-12.service-content > div > div > p > span, #services > div > div > p.wow.fadeIn.animated, #services > div > div > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > h3 > a, #contact > div > div > div > div.contact-content > div.contact-info > p, #contact > div > div > div > div.contact-content > div.contact-form > h4, #services-attente > div > div > div.col-md-12.service-headline > h2, #portfolio-details > div > div > div > h4 {
+#wedo > div > div > div > div > h3, #about > div > div > div > div.about-text > h3 > span, #about2 > div > div > div > div.about-text > h3 > span, #about3 > div > div > div > div.about-text > h3 > span, #quote > div.container-fluid > div > div.col-md-12.quote-headline > h4, #services > div > div.col-lg-12.service-content > div > div > p > span, #services > div > div > p.wow.fadeIn.animated, #services > div > div > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > h3 > a, #contact > div > div > div > div.contact-content > div.contact-info > p, #contact > div > div > div > div.contact-content > div.contact-form > h4, #services-attente > div > div > div.col-md-12.service-headline > h2, #portfolio-details > div > div > div > h4 {
     font-size: 30px !important;
 }
 
-#our-work > div > div > div.col-md-12.new-style > p, #about > div > div > div > div.about-text > p, #about > div > div > div > div.about-text > ul > li > div.text, #services > div > div > div.col-md-12.service-headline > p, #services > div > div > div.col-md-12.service-content > div > div > div.text > h4, #services > div > div.col-lg-12.service-content > div > div > div > div.info-text.wow.fadeIn.animated > p, #call-to > div.container > div > div > p, #skills > div > div > div > div > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > a, #contact > div > div > div > div.contact-content > div.contact-info > div > div.info-text.wow.fadeIn.animated > p, #contact > div > div > div > div.contact-content > div.contact-form > form > div > label, #contact > div > div > div > div.contact-content > div.contact-info > div.bottom-info > h4, #service-details > div > div > div.col-md-12.service-headline > p, #service-details > div > div > div.col-md-12.service-content > div.right > div > div.text > h4, #services-attente > div > div > div.col-md-12.service-headline > p, #services-attente > div > div > div.col-md-12.service-content > div > p, #call-to-attente > div.container > div > div > p {
+#our-work > div > div > div.col-md-12.see-work > h2, #about > div > div > div > div.about-text > h2, #about2 > div > div > div > div.about-text > h2, #about3 > div > div > div > div.about-text > h2, #services > div > div > div.col-md-12.service-headline > h2, #services > div > div:nth-child(1) > h2, #call-to > div.container > div > div > h3, #skills > div > div > div > div > h2, #contact > div > div > div > div.contact-headline > h3 > span, #page-top > section.service-item > div.container-fluid > div > div > div.typed-headline > span.skilltechtypetext, #about > div > div > div > div > h3 > span.minutes, #about2 > div > div > div > div > h3 > span.minutes, #wedo > div > div > div > div > h2 {
+    font-size: 50px !important;
+}
+
+#our-work > div > div > div.col-md-12.new-style > p, #about > div > div > div > div.about-text > p, #about2 > div > div > div > div.about-text > p, #about3 > div > div > div > div.about-text > p, #about > div > div > div > div.about-text > ul > li > div.text, #about2 > div > div > div > div.about-text > ul > li > div.text, #about3 > div > div > div > div.about-text > ul > li > div.text, #services > div > div > div.col-md-12.service-headline > p, #services > div > div > div.col-md-12.service-content > div > div > div.text > h4, #services > div > div.col-lg-12.service-content > div > div > div > div.info-text.wow.fadeIn.animated > p, #call-to > div.container > div > div > p, #skills > div > div > div > div > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > a, #contact > div > div > div > div.contact-content > div.contact-info > div > div.info-text.wow.fadeIn.animated > p, #contact > div > div > div > div.contact-content > div.contact-form > form > div > label, #contact > div > div > div > div.contact-content > div.contact-info > div.bottom-info > h4, #service-details > div > div > div.col-md-12.service-headline > p, #service-details > div > div > div.col-md-12.service-content > div.right > div > div.text > h4, #services-attente > div > div > div.col-md-12.service-headline > p, #services-attente > div > div > div.col-md-12.service-content > div > p, #call-to-attente > div.container > div > div > p {
     font-size: 22px;
 }
 
@@ -3692,6 +3701,12 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #big-image {
         display: none;
     }
+    #about2 {
+        height: 38em;
+    }
+    #about2 > div > div > div > div > h2 {
+        line-height: 55px;
+    }
 }
 
 @media only screen and (max-width: 578px) {
@@ -3757,6 +3772,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #services-attente {
         height: 190em;
     }
+    #about2 {
+        height: 45em;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -3804,6 +3822,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         height: 20em;
         padding-top: 10em;
     }
+    #about2 {
+        height: 55em;
+    } 
 }
 
 @media only screen and (max-width: 370px) {
