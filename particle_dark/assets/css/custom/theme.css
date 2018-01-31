@@ -3559,6 +3559,10 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     font-size: 24px;
 }
 
+#portfolio-details-file > div > div > div > h2 > span {
+    font-weight: 700;
+}
+
 @media only screen and (max-width: 1200px) {
     #our-work {
         height: 45em;
