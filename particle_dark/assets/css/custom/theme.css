@@ -1843,7 +1843,7 @@ footer p a {
     height: 100%;
     width: 100%;
     margin-top: -100px;
-    background: url('../../images/randonnée_1.jpg') fixed;
+    background: url('../../images/carto.jpg') fixed;
     background-size: cover;
     position: relative;
 }
