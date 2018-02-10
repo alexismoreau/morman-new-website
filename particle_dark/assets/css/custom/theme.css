@@ -3307,7 +3307,7 @@ footer p a {
     width: 100%;
     margin-left: 0px;
     min-height: 30em;
-    border: 1em solid black;
+    border: 3px solid black;
 }
 
 #big-image > div, #portfolio-details > div {
@@ -3322,7 +3322,7 @@ footer p a {
 }
 
 #quote {
-    height: 44em;
+    height: 28em;
 }
 
 #st-logo {
@@ -3384,7 +3384,7 @@ footer p a {
 }
 
 #quote > div > div > div.col-md-12.quote-bottom {
-    padding-top: 68px;
+    padding-top: 9em;
 }
 
 #yt-player {
@@ -3527,12 +3527,16 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #three-points > div > div > div > div {
-    padding-top: 10em;
+    padding-top: 8em;
 }
 
 #three-points > div > div > div > div > ul > li {
     width: 33%;
     height: auto;
+}
+
+#three-points > div > div > div > div > ul > li > div.text {
+    overflow: hidden;
 }
 
 #three-points > div > div > div > div > ul > li > div.text {
