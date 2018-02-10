@@ -3522,6 +3522,28 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     width: max-content;
 }
 
+#three-points {
+    height: auto;
+}
+
+#three-points > div > div > div > div {
+    padding-top: 10em;
+}
+
+#three-points > div > div > div > div > ul > li {
+    width: 33%;
+    height: auto;
+}
+
+#three-points > div > div > div > div > ul > li > div.text {
+     width: 100%;
+}
+
+#three-points > div > div > div > div > ul > li > div.icon {
+    width: 60px;
+    height: 60px;
+}
+
 #offres-alt {
     display: none;
 }
@@ -3543,11 +3565,11 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 
-#wedo > div > div > div > div > h3, #about > div > div > div > div.about-text > h3 > span, #about2 > div > div > div > div.about-text > h3 > span, #about3 > div > div > div > div.about-text > h3 > span, #quote > div.container-fluid > div > div.col-md-12.quote-headline > h4, #services > div > div.col-lg-12.service-content > div > div > p > span, #services > div > div > p.wow.fadeIn.animated, #services > div > div > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > h3 > a, #contact > div > div > div > div.contact-content > div.contact-info > p, #contact > div > div > div > div.contact-content > div.contact-form > h4, #services-attente > div > div > div.col-md-12.service-headline > h2, #portfolio-details > div > div > div > h4, #portfolio-details-file > div > div > div > h3 {
+#wedo > div > div > div > div > h3, #about > div > div > div > div.about-text > h3 > span, #about2 > div > div > div > div.about-text > h3 > span, #about3 > div > div > div > div.about-text > h3 > span, #quote > div.container-fluid > div > div.col-md-12.quote-headline > h4, #services > div > div.col-lg-12.service-content > div > div > p > span, #services > div > div > p.wow.fadeIn.animated, #services > div > div > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > h3 > a, #contact > div > div > div > div.contact-content > div.contact-info > p, #contact > div > div > div > div.contact-content > div.contact-form > h4, #services-attente > div > div > div.col-md-12.service-headline > h2, #portfolio-details > div > div > div > h4, #portfolio-details-file > div > div > div > h3, #three-points > div > div > div > div > ul > li > div.text {
     font-size: 30px !important;
 }
 
-#our-work > div > div > div.col-md-12.see-work > h2, #about > div > div > div > div.about-text > h2, #about2 > div > div > div > div.about-text > h2, #about3 > div > div > div > div.about-text > h2, #services > div > div > div.col-md-12.service-headline > h2, #services > div > div:nth-child(1) > h2, #call-to > div.container > div > div > h3, #skills > div > div > div > div > h2, #contact > div > div > div > div.contact-headline > h3 > span, #page-top > section.service-item > div.container-fluid > div > div > div.typed-headline > span.skilltechtypetext, #about > div > div > div > div > h3 > span.minutes, #about2 > div > div > div > div > h3 > span.minutes, #wedo > div > div > div > div > h2, #portfolio-details-file > div > div > div > h2 {
+#our-work > div > div > div.col-md-12.see-work > h2, #about > div > div > div > div.about-text > h2, #about2 > div > div > div > div.about-text > h2, #about3 > div > div > div > div.about-text > h2, #services > div > div > div.col-md-12.service-headline > h2, #services > div > div:nth-child(1) > h2, #call-to > div.container > div > div > h3, #skills > div > div > div > div > h2, #contact > div > div > div > div.contact-headline > h3 > span, #page-top > section.service-item > div.container-fluid > div > div > div.typed-headline > span.skilltechtypetext, #about > div > div > div > div > h3 > span.minutes, #about2 > div > div > div > div > h3 > span.minutes, #wedo > div > div > div > div > h2, #portfolio-details-file > div > div > div > h2, #three-points > div > div > div > div > ul > li > div.icon > i {
     font-size: 50px !important;
 }
 
