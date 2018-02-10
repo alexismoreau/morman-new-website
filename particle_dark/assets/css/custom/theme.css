@@ -3325,6 +3325,10 @@ footer p a {
     height: 28em;
 }
 
+#about > div > div > div {
+    height: 68em;
+}
+
 #st-logo {
     top: 25px !important;
 }
@@ -3469,7 +3473,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #page-top > section:nth-child(11) {
-    height: 102em;
+    height: 55em;
 }
 
 #services > div > div.service-2.wow.fadeIn.animated {
