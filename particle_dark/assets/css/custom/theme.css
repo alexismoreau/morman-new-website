@@ -3322,7 +3322,7 @@ footer p a {
 }
 
 #quote {
-    height: 28em;
+    height: auto;
 }
 
 #about > div > div > div {
@@ -3472,8 +3472,12 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     display: none;
 }
 
-#page-top > section:nth-child(11) {
-    height: 55em;
+#page-top > section:nth-child(10) {
+    height: 108em;
+}
+
+#services {
+    padding-top: 10em;
 }
 
 #services > div > div.service-2.wow.fadeIn.animated {
