@@ -66,6 +66,16 @@ footer p a:hover,
     background: #ff701b;
 }
 
+div.offre1:nth-child(1) {
+    background-color: rgba(45, 102, 185, 0.15);
+}
+div.offre1:nth-child(2) {
+    background-color: rgba(45, 102, 185, 0.25);
+}
+div.offre1:nth-child(3) {
+    background-color: rgba(45, 102, 185, 0.35);
+}
+
 /* primary color 3 */
 .sweep-icon a .fa {
     color: #ff701b;

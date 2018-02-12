@@ -3544,12 +3544,22 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     height: auto;
 }
 
+#services > div > div.col-lg-12.service-content > div > div > div {
+    line-height: 8em;
+}
+
+#services > div > div.col-lg-12.service-content > div > div > div > div.info-text.wow.fadeIn.animated > p {
+    padding-top: 12px;
+}
+
 #three-points > div > div > div > div > ul > li > div.text {
     overflow: hidden;
 }
 
 #three-points > div > div > div > div > ul > li > div.text {
-     width: 100%;
+    width: 100%;
+    line-height: 1em;
+    height: 3em;
 }
 
 #three-points > div > div > div > div > ul > li > div.icon {
