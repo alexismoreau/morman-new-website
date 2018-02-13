@@ -3556,6 +3556,11 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     overflow: hidden;
 }
 
+#services > div > div > p.wow.fadeIn.animated > a {
+    color: #ff701b;
+    font-weight: 700;
+}
+    
 #page-top > a {
     position: fixed;
     bottom: 20px;
