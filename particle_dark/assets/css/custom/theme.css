@@ -1837,6 +1837,311 @@ footer p a {
     color: #ffffff;
 }
 
+/* 13. Portfolio Item fidelisation
+--------------------------------- */
+
+.portfolio2-item {
+    height: 100%;
+    width: 100%;
+    margin-top: -100px;
+    background: url('../../images/loyalty.jpeg') 100% 100% fixed;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.portfolio2-item .container-fluid,
+.portfolio2-item .row,
+.portfolio2-item .col-lg-12 {
+    height: 100%;
+}
+
+.portfolio2-item #particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.portfolio2-headline {
+    height: 125px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-top: 1px solid #5f5f5f;
+}
+
+.portfolio2-headline .container {
+    height: 100%;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+
+.portfolio2-headline .btn-default {
+    width: 180px;
+    height: 50px;
+    color: #ffffff;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-top: 24px;
+}
+
+.portfolio2-headline .hvr-sweep-to-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background-color: #ff701b;
+}
+
+.portfolio2-headline .hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .4);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.portfolio2-headline .hvr-sweep-to-right:hover,
+.hvr-sweep-to-right:focus,
+.hvr-sweep-to-right:active {
+    color: #ffffff;
+    background-color: #40464f;
+}
+
+.portfolio2-headline .hvr-sweep-to-right:hover:before,
+.hvr-sweep-to-right:focus:before,
+.hvr-sweep-to-right:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.portfolio2-item .typed-headline {
+    display: inline-block;
+}
+
+.service-item .typed-headline {
+    margin-bottom: 20px;
+}
+
+.portfolio2-item .typed-headline .skilltechtypetext {
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.portfolio2-item .typed-headline .typed-cursor {
+    line-height: 60px;
+    font-size: 50px;
+}
+
+.portfolio2-item .typed-headline p {
+    font-weight: 300;
+    color: #7EACBC;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.portfolio2-item-details {
+    background: url("../../images/attente.jpg");
+    padding: 45px 0;
+    background-size: cover;
+}
+
+.portfolio2-item-details .portfolio-text {
+    background: transparent;
+    padding: 30px;
+}
+
+.portfolio2-item-details .portfolio-text p {
+    color: #8cbfd1;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.portfolio2-useful-links,
+.portfolio2-download-links {
+    display: inline-block;
+}
+
+.portfolio2-form {
+    clear: both;
+}
+
+.portfolio2-form,
+.portfolio2-useful-links {
+    padding: 30px;
+}
+
+.portfolio2-item-details .portfolio-text h3,
+.portfolio2-form h3,
+.portfolio2-useful-links h3,
+.portfolio2-download-links h3 {
+    margin-top: 0;
+    color: #ffffff;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.portfolio2-item-details .portfolio-text h3 span,
+.portfolio2-form h3 span,
+.portfolio2-useful-links h3 span,
+.portfolio2-download-links h3 span {
+    font-weight: 700;
+}
+
+.portfolio2-form .form-control {
+    border-color: #73858E;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 16px;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+.portfolio2-form .form-control:focus {
+    border-color: #859aa4;
+    box-shadow: none;
+}
+
+.portfolio2-form .form-control:hover {
+    border-color: #c7c7c7;
+}
+
+.portfolio2-form .form-group label {
+    color: #ffffff;
+}
+
+.portfolio2-form .form-group input {
+    height: 40px;
+}
+
+.portfolio2-form .form-group textarea {
+    resize: none;
+}
+
+.portfolio2-form .btn-default {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    width: 170px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+.portfolio2-info {
+    margin-top: 10px;
+    list-style: none;
+    padding-top: 70px;
+}
+
+.portfolio2-info li {
+    width: 100%;
+    height: 32px;
+}
+
+.portfolio2-info p {
+    display: inline-block;
+}
+
+.portfolio2-info .first {
+    color: #A4C2D6;
+    line-height: 27px;
+    font-size: 17px;
+    margin: 0;
+    width: 170px;
+}
+
+.portfolio2-info .second {
+    line-height: 24px;
+    font-size: 15px;
+    color: #77A3B2;
+    margin-top: 7px;
+}
+
+.portfolio2-icons li a {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: table;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+.portfolio2-icons li a i {
+    font-size: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+.portfolio2-icons li a:hover i {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
 /* 14. Service Item
 --------------------------------- */
 .service-item {
