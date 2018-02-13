@@ -3560,7 +3560,12 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     color: #ff701b;
     font-weight: 700;
 }
-    
+
+#services > div > div.col-lg-12.service-content > div > div > div > div.info-icon.wow.fadeIn.animated {
+    width: 150px;
+    margin: 0;
+}
+
 #page-top > a {
     position: fixed;
     bottom: 20px;
@@ -3651,7 +3656,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         height: 43em;
     }
     .offre1 {
-        height: 25em;
+        height: 30em;
     }
     #quote {
         background-color: #0c161e;
