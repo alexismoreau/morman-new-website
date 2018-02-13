@@ -3556,6 +3556,33 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     overflow: hidden;
 }
 
+#page-top > a {
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+    width: 44px;
+    height: 44px;
+    background: white;
+    border-radius: 0.25em;
+    overflow: hidden;
+    padding: 6px 6px;
+    white-space: nowrap;
+    z-index: 9999;
+}
+
+#page-top > a > i {
+    font-size: 30px;
+    color: #00BBFF;
+}
+
+#st-main-nav > ul {
+    right: 130px;
+}
+
+#st-nav > a {
+    right: 7%
+}
+
 #three-points > div > div > div > div > ul > li > div.text {
     width: 100%;
     line-height: 1em;
