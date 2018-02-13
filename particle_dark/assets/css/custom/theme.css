@@ -1367,7 +1367,7 @@ header #st-logo img {
 }
 
 .offre1 {
-    height: 22em;
+    height: 30em;
     padding: 2em;
     width: 33%;
     display: inline-block;
@@ -2508,7 +2508,6 @@ footer p a {
 }
 
 @media only screen and (max-width: 960px) {
-
     .portfolio-download-links {
         padding: 0 30px 30px;
     }
@@ -3473,7 +3472,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #page-top > section:nth-child(10) {
-    height: 108em;
+    height: 68em;
 }
 
 #services {
@@ -3591,6 +3590,14 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 
 #st-nav > a {
     right: 7%
+}
+
+#services > div > div.service-headline {
+  padding-top: 6em;
+}
+
+#services > div > div.col-md-12.service-headline.offres {
+  padding-top: 2em;
 }
 
 #three-points > div > div > div > div > ul > li > div.text {
