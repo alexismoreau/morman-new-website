@@ -3866,6 +3866,15 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     height: auto;
 }
 
+#fidelisation {
+    height: 100%;
+    width: 100%;
+    margin-top: -100px;
+    background: url(../../images/loyalty.jpeg) 100% 100% fixed;
+    background-size: cover;
+    position: relative;
+}
+
 #services > div > div.col-lg-12.service-content > div > div > div {
     line-height: 8em;
 }
