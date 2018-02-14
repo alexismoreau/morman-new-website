@@ -69,6 +69,34 @@
         delay: 20,
         time: 2200
     });
+    
+    setTimeout(function(){
+        document.getElementById('serv1').style.visibility = "visible";
+    },1000);
+  
+    $(document).scroll(function() {
+        var y = $(this).scrollTop();
+        if (y > 2600) {
+          document.getElementById('service1').style.visibility = "visible";
+        } else {
+          document.getElementById('service1').style.visibility = "hidden";
+        }
+        if (y > 2700) {
+          document.getElementById('service3').style.visibility = "visible";
+        } else {
+          document.getElementById('service3').style.visibility = "hidden";
+        }
+        if (y > 2800) {
+          document.getElementById('service2').style.visibility = "visible";
+        } else {
+          document.getElementById('service2').style.visibility = "hidden";
+        }
+        if (y > 2900) {
+          document.getElementById('service4').style.visibility = "visible";
+        } else {
+          document.getElementById('service4').style.visibility = "hidden";
+        }
+      });
 
 
 })(jQuery);
