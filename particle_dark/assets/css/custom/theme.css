@@ -3866,6 +3866,11 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     height: auto;
 }
 
+#our-work > div > div > div.col-md-12.see-work {
+  height: 12em;
+  padding: 4em 0;
+}
+
 #fidelisation {
     height: 100%;
     width: 100%;
