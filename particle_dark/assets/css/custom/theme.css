@@ -3729,6 +3729,24 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     background: black;
 }
 
+#service-details > div > div > div.col-md-12.service-content > div.service-image {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    padding: 2em;
+}
+
+#service-details > div > div > div.col-md-12.service-content > div.service-image > img {
+      padding: 5px;
+      border: 5px solid #ff701b;
+}
+
+#service-details > div > div > div.col-md-12.service-content > div.right {
+  vertical-align: middle;
+  height: auto;
+  padding: 2em;
+}
+
 #quote > div.container-fluid > div > div.col-md-12.quote-bottom > div {
     background: #101c26;
     opacity: 0.9;
