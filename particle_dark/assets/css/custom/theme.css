@@ -3710,7 +3710,7 @@ footer p a {
 }
 
 #hero > div.container-fluid > div > div > div.hero-logo > img {
-    border-bottom: 5px orange solid;
+    border-bottom: 4px #f7921d solid;
     padding-bottom: 1.25em;
 }
 
