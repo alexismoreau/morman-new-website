@@ -3706,7 +3706,7 @@ footer p a {
 
 #hero > div.container-fluid > div > div > div.hero-logo {
     padding-bottom: 0;
-    margin-top: 30em;
+    margin-top: 25em;
 }
 
 #call-to-attente > div.container > div > div > a > button {
@@ -3872,7 +3872,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #hero > div.container-fluid > div > div > div.hero-logo > img {
-    width: 50%;
+    width: 40%;
 }
 
 #fidelisation {
