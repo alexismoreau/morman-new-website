@@ -3871,6 +3871,10 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
   padding: 4em 0;
 }
 
+#hero > div.container-fluid > div > div > div.hero-logo > img {
+    width: 50%;
+}
+
 #fidelisation {
     height: 100%;
     width: 100%;
