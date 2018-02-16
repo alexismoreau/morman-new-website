@@ -3706,7 +3706,16 @@ footer p a {
 
 #hero > div.container-fluid > div > div > div.hero-logo {
     padding-bottom: 0;
-    margin-top: 25em;
+    margin-top: 15em;
+}
+
+#hero > div.container-fluid > div > div > div.hero-logo > img {
+    border-bottom: 5px orange solid;
+    padding-bottom: 1.25em;
+}
+
+#hero > div.container-fluid > div > div > div.typed-text {
+    padding-top: 3em;
 }
 
 #call-to-attente > div.container > div > div > a > button {

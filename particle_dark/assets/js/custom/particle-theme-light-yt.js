@@ -98,5 +98,16 @@
         }
       });
 
+    // Typed JS
+    $(".skilltechtypetext").typed({
+        // This is were you need to change the text
+        strings: sentences,
+        contentType: 'html',
+        typeSpeed: 30,
+        loop: true,
+        backDelay: 1200,
+        showCursor: true,
+        cursorChar: "|"
+    });
 
 })(jQuery);
