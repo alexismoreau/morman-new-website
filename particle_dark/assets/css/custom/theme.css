@@ -3710,7 +3710,7 @@ footer p a {
 }
 
 #hero > div.container-fluid > div > div > div.hero-logo > img {
-    border-bottom: 4px #f7921d solid;
+    border-bottom: 4px #ff701b solid;
     padding-bottom: 1.25em;
 }
 
@@ -3981,6 +3981,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     text-align: center;
 }
 
+#hero > div.container-fluid > div > div > div.typed-text > span.skilltechtypetext {
+    font-size: 70px !important;
+}
 
 #wedo > div > div > div > div > h3, #about > div > div > div > div.about-text > h3 > span, #about2 > div > div > div > div.about-text > h3 > span, #about3 > div > div > div > div.about-text > h3 > span, #quote > div.container-fluid > div > div.col-md-12.quote-headline > h4, #services > div > div.col-lg-12.service-content > div > div > p > span, #services > div > div > p.wow.fadeIn.animated, #services > div > div > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > h3 > a, #contact > div > div > div > div.contact-content > div.contact-info > p, #contact > div > div > div > div.contact-content > div.contact-form > h4, #services-attente > div > div > div.col-md-12.service-headline > h2, #portfolio-details > div > div > div > h4, #portfolio-details-file > div > div > div > h3, #three-points > div > div > div > div > ul > li > div.text {
     font-size: 30px !important;

@@ -21,7 +21,7 @@
 .info-line .info-icon i,
 footer p a:hover,
 .portfolio-icons li a i,
-.service-icons li a i {
+.service-icons li a i, #hero > div.container-fluid > div > div > div.typed-text > span.skilltechtypetext > span {
     color: #ff701b;
 }
 
