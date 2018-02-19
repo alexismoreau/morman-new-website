@@ -3616,6 +3616,8 @@ footer p a {
     margin-left: 0px;
     min-height: 30em;
     border: 3em solid #0c161e;
+    /*border: none;*/
+    /*padding: 3em;*/
     opacity: 0.9;
 }
 
@@ -3739,6 +3741,7 @@ footer p a {
 
 #our-work {
     background: #0c161e;
+    /*background: white;*/
 }
 
 body > section.portfolio-item > div.container-fluid > div > div > div > div.container {
