@@ -3799,6 +3799,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 #carto-phone, #fidelisation-photo {
     padding: 0 !important;
     border: none !important;
+    border-radius: 0.5em;
 }
 
 .filedattente {
