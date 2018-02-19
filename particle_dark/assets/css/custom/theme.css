@@ -3790,6 +3790,11 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     background: url(../../images/communication-booth.png) 100% 100% fixed;
 }
 
+#carto-phone {
+    padding: 0 !important;
+    border: none !important;
+}
+
 .filedattente {
     background: url(../../images/image-serpentins.jpg) no-repeat 50% 50% fixed;
     padding-top: 9%;
