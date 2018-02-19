@@ -3943,7 +3943,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     margin: 0;
 }
 
-#page-top > a {
+#page-top > a, body > a {
     position: fixed;
     bottom: 20px;
     right: 2%;
@@ -3952,13 +3952,13 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     background: white;
     border-radius: 0.25em;
     overflow: hidden;
-    padding: 6px 6px;
     white-space: nowrap;
     z-index: 9999;
+    padding: 6px !important;
 }
 
-#page-top > a > i {
-    font-size: 30px;
+#page-top > a > i, body > a > i {
+    font-size: 30px !important;
     color: #00BBFF;
 }
 
