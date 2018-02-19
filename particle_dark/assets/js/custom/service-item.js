@@ -65,10 +65,22 @@
         cursorChar: "|"
     });
 
+    // Scrolling Navigation
+    $(function () {
+        $('a.page-scroll').bind('click', function (event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1500, 'easeInOutExpo');
+            event.preventDefault();
+        });
+    });
+    
     // Scroll Down
     $('.arrow-down').on('click', function () {
         $('html,body').animate({scrollTop: $('#service-details').offset().top}, 1000, 'swing');
     });
+    
 
 })(jQuery);
 
