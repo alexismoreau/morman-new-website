@@ -3619,6 +3619,12 @@ footer p a {
     opacity: 0.9;
 }
 
+.communication {
+    background: url(../../images/communication-booth.png) no-repeat 50% 50% fixed;
+    padding-top: 9%;
+    height: 45em;
+}
+
 #big-image > div, #portfolio-details > div {
     background: #101c26;
     opacity: 0.9;
@@ -3780,6 +3786,10 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     line-height: 8em;
 }
 
+#com-first {
+    background: url(../../images/communication-booth.png) 100% 100% fixed;
+}
+
 .filedattente {
     background: url(../../images/image-serpentins.jpg) no-repeat 50% 50% fixed;
     padding-top: 9%;
@@ -3790,7 +3800,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     color: #ff701b;
 }
 
-.filedattente > div {
+.filedattente > div, .communication > div {
     background: #101c26;
     opacity: 0.9;
 }
