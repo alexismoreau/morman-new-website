@@ -3981,6 +3981,14 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     text-align: center;
 }
 
+#hero > div.container-fluid > div > div > div.service-item-read-more {
+    padding-top: 5em;
+}
+
+#hero > div.container-fluid > div > div > div.service-item-read-more > a > i {
+    font-size: 100px !important;
+}
+
 #hero > div.container-fluid > div > div > div.typed-text > span.skilltechtypetext {
     font-size: 70px !important;
 }

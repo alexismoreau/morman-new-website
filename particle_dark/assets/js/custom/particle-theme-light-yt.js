@@ -69,10 +69,6 @@
         delay: 20,
         time: 2200
     });
-    
-    setTimeout(function(){
-        document.getElementById('serv1').style.visibility = "visible";
-    },1000);
   
     $(document).scroll(function() {
         var y = $(this).scrollTop();
