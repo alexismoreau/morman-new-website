@@ -3615,7 +3615,8 @@ footer p a {
     width: 100%;
     margin-left: 0px;
     min-height: 30em;
-    border: 3px solid black;
+    border: 3em solid #0c161e;
+    opacity: 0.9;
 }
 
 #big-image > div, #portfolio-details > div {
