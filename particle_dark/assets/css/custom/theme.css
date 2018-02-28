@@ -4040,7 +4040,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #services > div, #offres > div {
-  margin-top: -50px;
+  margin-top: -150px;
 }
 
 #wedo > div > div > div > div > h3, #about > div > div > div > div.about-text > h3 > span, #about2 > div > div > div > div.about-text > h3 > span, #about3 > div > div > div > div.about-text > h3 > span, #quote > div.container-fluid > div > div.col-md-12.quote-headline > h4, #services > div > div.col-lg-12.service-content > div > div > p > span, #services > div > div > p.wow.fadeIn.animated, #services > div > div > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > h3 > a, #offres > div > div.col-lg-12.service-content > div > div > p > span, #contact > div > div > div > div.contact-content > div.contact-info > p, #contact > div > div > div > div.contact-content > div.contact-form > h4, #services-attente > div > div > div.col-md-12.service-headline > h2, #portfolio-details > div > div > div > h4, #portfolio-details-file > div > div > div > h3, #three-points > div > div > div > div > ul > li > div.text, #offres > div > div > p.wow.fadeIn.animated, #services > div > div > p, #com-call-to > div.container > div > div > h3 {
@@ -4413,4 +4413,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #portfolio-details-file > div > div > div > h2 {
         font-size: 40px !important;
     }
+}
+
+#offres > div > div:nth-child(1) > h4 {
+  font-size: 41px;
+  color: white;
 }
