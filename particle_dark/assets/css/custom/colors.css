@@ -6,6 +6,7 @@
 .hero-section-video-dark .second-headline span,
 .hero-section-yt-dark .second-headline span,
 .image-section h4 span,
+.image-section h3 span,
 .about-icons li .icon .material-icons,
 .about-text h2 span,
 .quote-bottom .container h3 span,
@@ -22,6 +23,7 @@
 footer p a:hover,
 .portfolio-icons li a i,
 .service-icons li a i, #hero > div.container-fluid > div > div > div.typed-text > span.skilltechtypetext > span, #com-call-to > div.container > div > div > h3 > span {
+
     color: #ff701b;
 }
 
