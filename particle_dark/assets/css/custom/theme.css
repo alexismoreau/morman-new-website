@@ -4426,6 +4426,6 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 
 /*   tawk   */
 
-#chatWrapper > div:nth-child(1) {
+#chatWrapper > div:nth-child(1), #innerWrapper > div:nth-child(8) {
     display: none;
 }
