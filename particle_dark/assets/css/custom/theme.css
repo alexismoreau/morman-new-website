@@ -4423,3 +4423,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
   font-size: 41px;
   color: white;
 }
+
+/*   tawk   */
+
+#chatWrapper > div:nth-child(1) {
+    display: none;
+}
