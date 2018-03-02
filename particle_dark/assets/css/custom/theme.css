@@ -2307,6 +2307,10 @@ footer p a {
     transition: all .4s ease 0s;
 }
 
+#services > div > div > div.col-md-12.service-headline > h2 {
+    margin-bottom: 1.5em;
+}
+
 .service-form .form-control:focus {
     border-color: #859aa4;
     box-shadow: none;
@@ -3835,7 +3839,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #services {
-    padding-top: 10em;
+    padding-top: 17em;
 }
 
 #services > div > div.service-2.wow.fadeIn.animated {
