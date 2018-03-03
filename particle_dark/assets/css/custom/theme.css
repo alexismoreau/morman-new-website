@@ -3971,7 +3971,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #st-nav > a {
-    right: 7%
+    right: 8%
 }
 
 #services > div > div.service-headline, #offres > div > div.service-headline {
@@ -4422,10 +4422,4 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 #offres > div > div:nth-child(1) > h4 {
   font-size: 41px;
   color: white;
-}
-
-/*   tawk   */
-
-#chatWrapper > div:nth-child(1), #innerWrapper > div:nth-child(8) {
-    display: none;
 }
