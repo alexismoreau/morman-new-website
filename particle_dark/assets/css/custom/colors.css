@@ -99,6 +99,15 @@ div.offre1:nth-child(3) {
 
 /* Gradients */
 /* secondary and secondary 2 */
+.offre1 .btn-default {
+    background-image: -ms-linear-gradient(left, #af6c42 0%, #ff701b 100%);
+    background-image: -moz-linear-gradient(left, #af6c42 0%, #ff701b 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #af6c42), color-stop(1, #ff701b));
+    background-image: -webkit-linear-gradient(left, #af6c42, #ff701b 100%);
+    background-image: linear-gradient(to right, #af6c42, #ff701b 100%);
+    
+}
+
 .call-to-section .btn-default {
     background-image: -ms-linear-gradient(left, #00F2FF 0%, #00BBFF 100%);
     background-image: -moz-linear-gradient(left, #00F2FF 0%, #00BBFF 100%);

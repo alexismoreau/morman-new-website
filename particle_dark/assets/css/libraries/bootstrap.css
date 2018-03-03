@@ -1595,7 +1595,7 @@ pre code {
 @media (min-width: 992px) {
   .container {
     width: 970px;
-  
+
   }
 }
 @media (min-width: 1200px) {
@@ -3060,7 +3060,7 @@ fieldset[disabled] a.btn {
 .btn-default {
   color: #333;
   background-color: #fff;
-  border-color: #ccc;
+
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -6755,4 +6755,5 @@ button.close {
     display: none !important;
   }
 }
+
 /*# sourceMappingURL=bootstrap.css.map */
