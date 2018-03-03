@@ -975,6 +975,7 @@ header #st-logo img {
 .service-content {
     text-align: center;
     overflow: hidden;
+
 }
 
 .service-content .left,
@@ -1044,6 +1045,7 @@ header #st-logo img {
   display: block;
   margin: auto;
   vertical-align: top;
+
 }
 
 .service .icons-rouge i,
@@ -4078,7 +4080,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         height: 43em;
     }
     .offre1 {
-        height: 30em;
+        height: 35em;
     }
     #quote {
         background-color: #0c161e;
@@ -4422,4 +4424,27 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 #offres > div > div:nth-child(1) > h4 {
   font-size: 41px;
   color: white;
+}
+
+#offres > div > div.col-md-12.service-content > h4 {
+    color: white;
+    font-size: 30px;
+}
+
+#offres > div > div.col-lg-12.service-content > div > div:nth-child(1) > div > button {
+  margin-top: -85px;
+}
+
+#offres > div > div.col-md-12.service-content {
+
+  background-color: rgba(45, 102, 185, 0.15);
+  margin-bottom: 3px;
+}
+
+#offres > div > div.col-lg-12.service-content > div > div:nth-child(2) > div > button {
+  margin-top: -85px;
+}
+
+#offres > div > div.col-lg-12.service-content > div > div:nth-child(3) > div > button {
+  margin-top: -85px;
 }
