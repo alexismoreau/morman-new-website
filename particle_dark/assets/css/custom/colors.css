@@ -85,6 +85,12 @@ div.offre1:nth-child(3) {
 #our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(4) > div > div.sweep-from-center > div > div > h3 > a {
   color: #ff701b;
 }
+#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(1) > div > div.sweep-from-center > div > div > h3 > a:hover ,
+#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(2) > div > div.sweep-from-center > div > div > h3 > a:hover ,
+#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(3) > div > div.sweep-from-center > div > div > h3 > a:hover ,
+#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(4) > div > div.sweep-from-center > div > div > h3 > a:hover {
+  color: #ffffff;
+}
 
 /* primary color 3 */
 .sweep-icon a .fa {
@@ -92,8 +98,8 @@ div.offre1:nth-child(3) {
 }
 
 /* secondary color */
-.our-work-section .new-style p a, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > a, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > h3 > a:hover, #about > div > div > div > div.about-text > h3 > span, #about2 > div > div > div > div.about-text > h3 > span, #about3 > div > div > div > div.about-text > h3 > span, #portfolio-details-file > div > div > div > h2, #portfolio-details-file > div > div > div > h3 > span {
-    color: #ffffff;
+.our-work-section .new-style p a, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > a, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > h3 > a, #about > div > div > div > div.about-text > h3 > span, #about2 > div > div > div > div.about-text > h3 > span, #about3 > div > div > div > div.about-text > h3 > span, #portfolio-details-file > div > div > div > h2, #portfolio-details-file > div > div > div > h3 > span {
+    color: #ff701b;
 }
 
 .sweep-layer h3 a:hover {
