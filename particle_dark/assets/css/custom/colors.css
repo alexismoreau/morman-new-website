@@ -141,6 +141,8 @@ div.offre1:nth-child(3) {
 
 /* secondary and primary 2 */
 .hero-layer,
+.portfolio-images,
+.see-work,
 .call-to-layer {
     background-image: -ms-linear-gradient(left, #00F2FF 0%, #ff701b 100%);
     background-image: -moz-linear-gradient(left, #00F2FF 0%, #ff701b 100%);
