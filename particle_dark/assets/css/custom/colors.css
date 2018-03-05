@@ -79,6 +79,13 @@ div.offre1:nth-child(3) {
     background-color: rgba(45, 102, 185, 0.35);
 }
 
+#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(1) > div > div.sweep-from-center > div > div > h3 > a ,
+#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(2) > div > div.sweep-from-center > div > div > h3 > a ,
+#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(3) > div > div.sweep-from-center > div > div > h3 > a ,
+#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(4) > div > div.sweep-from-center > div > div > h3 > a {
+  color: #ff701b;
+}
+
 /* primary color 3 */
 .sweep-icon a .fa {
     color: #ff701b;
@@ -86,7 +93,7 @@ div.offre1:nth-child(3) {
 
 /* secondary color */
 .our-work-section .new-style p a, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > a, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > h3 > a:hover, #about > div > div > div > div.about-text > h3 > span, #about2 > div > div > div > div.about-text > h3 > span, #about3 > div > div > div > div.about-text > h3 > span, #portfolio-details-file > div > div > div > h2, #portfolio-details-file > div > div > div > h3 > span {
-    color: #ff701b;
+    color: #ffffff;
 }
 
 .sweep-layer h3 a:hover {
@@ -99,13 +106,22 @@ div.offre1:nth-child(3) {
 
 /* Gradients */
 /* secondary and secondary 2 */
+.our-work-section .btn-default {
+    background-image: -ms-linear-gradient(left, #af6c42 0%, #ff701b 100%);
+    background-image: -moz-linear-gradient(left, #af6c42 0%, #ff701b 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #af6c42), color-stop(1, #ff701b));
+    background-image: -webkit-linear-gradient(left, #af6c42, #ff701b 100%);
+    background-image: linear-gradient(to right, #af6c42, #ff701b 100%);
+
+}
+
 .offre1 .btn-default {
     background-image: -ms-linear-gradient(left, #af6c42 0%, #ff701b 100%);
     background-image: -moz-linear-gradient(left, #af6c42 0%, #ff701b 100%);
     background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #af6c42), color-stop(1, #ff701b));
     background-image: -webkit-linear-gradient(left, #af6c42, #ff701b 100%);
     background-image: linear-gradient(to right, #af6c42, #ff701b 100%);
-    
+
 }
 
 .call-to-section .btn-default {

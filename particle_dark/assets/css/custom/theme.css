@@ -609,7 +609,7 @@ header #st-logo img {
     height: 100px;
     padding: 25px 0;
     text-align: center;
-    background-color: #0c161e;
+    background-color: #ffffff;
     color: #ffffff;
 }
 
@@ -618,6 +618,7 @@ header #st-logo img {
     font-size: 44px;
     margin: 0;
     font-weight: 700;
+    color: black;
 }
 
 .our-work-section .new-style {
@@ -1230,6 +1231,43 @@ header #st-logo img {
 }
 
 .offre1 .hvr-sweep-to-right:hover:before,
+.hvr-sweep-to-right:focus:before,
+.hvr-sweep-to-right:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.our-work-section .hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.our-work-section .hvr-sweep-to-right:hover,
+.hvr-sweep-to-right:focus,
+.hvr-sweep-to-right:active {
+    color: #ffffff;
+    background: -webkit-linear-gradient(left, #2E4054, #456A93 100%);
+    background: linear-gradient(to right, #2E4054, #456A93 100%);
+    border-color: #456B93;
+}
+
+.our-work-section .hvr-sweep-to-right:hover:before,
 .hvr-sweep-to-right:focus:before,
 .hvr-sweep-to-right:active:before {
     -webkit-transform: scaleX(1);
@@ -3735,7 +3773,7 @@ footer p a {
 
 
 #our-work > div > div > div.col-md-12.portfolio-images > div > div > div.sweep-from-center > div {
-    padding-top: 16%;
+    padding-top: 25%;
 }
 
 #about > div > div > div > div.about-text, #about2 > div > div > div > div.about-text, #about3 > div > div > div > div.about-text {
@@ -3946,8 +3984,8 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #our-work > div > div > div.col-md-12.see-work {
-  height: 12em;
-  padding: 4em 0;
+  height: 9em;
+  padding: 3em 0;
 }
 
 #hero > div.container-fluid > div > div > div.hero-logo > img {
@@ -4499,6 +4537,50 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 
 #offres > div > div.col-lg-12.service-content > div > div:nth-child(3) > div > a > button {
   margin-top: -85px;
+  width: 220px;
+  height: 50px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(1) > div > div.sweep-from-center > div > div > a > button {
+  margin-top: 25px;
+  width: 220px;
+  height: 50px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(2) > div > div.sweep-from-center > div > div > a > button{
+  margin-top: 25px;
+  width: 220px;
+  height: 50px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(3) > div > div.sweep-from-center > div > div > a > button{
+  margin-top: 25px;
+  width: 220px;
+  height: 50px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(4) > div > div.sweep-from-center > div > div > a > button{
+  margin-top: 25px;
   width: 220px;
   height: 50px;
   -webkit-border-radius: 0;
