@@ -1400,7 +1400,7 @@ header #st-logo img {
 --------------------------------- */
 .contact-section {
     height: 830px;
-    padding-top: 60px;
+    padding-top: 28px;
     text-align: center;
     background: url('../../images/contact-hero.jpg') 0 50% fixed;
 }
@@ -4600,4 +4600,8 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 
 #services > div > div > div {
   padding-top: 10em;
+}
+
+#services > div > div {
+  margin-top: -13em;
 }
