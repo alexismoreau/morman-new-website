@@ -3859,7 +3859,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #services > div > div > div.col-md-12.service-headline {
-    margin-bottom: 0;
+    margin-bottom: -30px;
 }
 
 #contact > div.container > div > div > div.contact-content > div {
