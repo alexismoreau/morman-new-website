@@ -1102,7 +1102,7 @@ header #st-logo img {
     text-align: center;
     position: relative;
     padding-top: 146px;
-    padding-bottom: 146px;
+    padding-bottom: 50px;
 }
 
 .call-to-layer {
@@ -4588,4 +4588,16 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
   border-radius: 0;
   color: #ffffff;
   font-size: 24px;
+}
+
+#call-to > div.container > div > div > h3:nth-child(3) {
+  margin-top: 50px;
+}
+
+#call-to > div.container > div > div {
+      margin-top: -100px;
+}
+
+#services > div > div > div {
+  padding-top: 10em;
 }
