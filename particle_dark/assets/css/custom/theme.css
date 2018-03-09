@@ -930,10 +930,35 @@ header #st-logo img {
     color: #A4C2D6;
 }
 
+.service-bottom .container h3 {
+    line-height: 46px;
+    font-size: 37px;
+    color: #ffffff;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+.service-bottom .container h3 span {
+    font-weight: 700;
+}
+
+.service-bottom .container p {
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.service-bottom .container p span {
+    text-transform: none;
+    color: #A4C2D6;
+}
 /* 8. Services Section
 --------------------------------- */
 .services-section {
-    height: 900px;
+    height: 680px;
     padding-top: 100px;
     padding-bottom: 100px;
     background: #101c26;
@@ -3858,7 +3883,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #services > div > div > div.col-md-12.service-headline {
-    margin-bottom: -30px;
+    margin-bottom: -15em;
 }
 
 #contact > div.container > div > div > div.contact-content > div {
@@ -3918,7 +3943,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #services {
-    padding-top: 17em;
+    padding-top: 11em;
 }
 
 #services > div > div.service-2.wow.fadeIn.animated {
@@ -4602,9 +4627,19 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #services > div > div > div {
-  padding-top: 10em;
+  padding-top: 15em;
 }
 
 #services > div > div {
   margin-top: -13em;
+}
+
+#big-image > div > div > div{
+  background: #101c26;
+  opacity: 0.9;
+  padding: 1em;
+}
+
+#services > div > div > div.col-md-12.service-content > div.service-image {
+      width: 30em;
 }
