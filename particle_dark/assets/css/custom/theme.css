@@ -4645,5 +4645,6 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #services{
-  height: 685px;
+  height: 657px;
+  padding-left: 11px;
 }
