@@ -3715,7 +3715,7 @@ footer p a {
 #services > div > div > div.col-md-12.service-content > div > div > div.text > h4, #skills > div > div > div.col-md-12.progress-bar-wrapper > div > div > div.col-md-3.col-sm-3.col-xs-4.wow.fadeIn.animated, #skills > div > div > div.col-md-12.progress-bar-wrapper > div > div > div.col-md-1.col-sm-1.col-xs-1 > span {
     color: #ffffff;
     font-size: 17px;
-    line-height: 17px;
+    line-height: 35px;
     font-weight: 700;
 }
 
@@ -4627,7 +4627,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #services > div > div > div {
-  padding-top: 15em;
+  padding-top: 12em;
 }
 
 #services > div > div {
@@ -4645,6 +4645,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #services{
-  height: 657px;
+  height: 683px;
   padding-left: 11px;
+  padding-top: 19em;
 }
