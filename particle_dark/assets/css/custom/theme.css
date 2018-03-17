@@ -655,7 +655,6 @@ header #st-logo img {
 .our-work-section .portfolio-images {
     height: 100%;
     padding: 0;
-    border-bottom: 4px solid black;
 }
 
 .our-work-section .portfolio-images .col-md-3 {
@@ -4014,6 +4013,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
   height: 9em;
   padding: 3em 0;
   border-top: 4px solid black;
+  border-bottom: 4px solid black;
 }
 
 #hero > div.container-fluid > div > div > div.hero-logo > img {
@@ -4260,6 +4260,11 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 @media only screen and (max-width: 1200px) {
     #our-work {
         height: auto;
+        background-image: -ms-linear-gradient(left, #00F2FF 0%, #ff701b 100%);
+        background-image: -moz-linear-gradient(left, #00F2FF 0%, #ff701b 100%);
+        background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00F2FF), color-stop(1, #ff701b));
+        background-image: -webkit-linear-gradient(left, #00F2FF, #ff701b 100%);
+        background-image: linear-gradient(to right, #00F2FF, #ff701b 100%);
     }
     #about {
         height: 55em;
@@ -4294,6 +4299,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #services > div {
         margin: 0;
         width: 100%;
+    }
+    #hero > div.container-fluid > div > div > div.service-item-read-more {
+        padding-top: 10em;
     }
 }
 
@@ -4332,6 +4340,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #contact > div > div > div > div > div.contact-info > div.info-line {
         padding-left: 5%;
+    }
+    #offres > div {
+        width: 90%;
     }
 }
 
@@ -4383,6 +4394,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     .filedattente {
         height: 55em;
+    }
+    #offres > div > div.col-lg-12.service-content > div > div > div > div > a > button {
+        width: 8em;
     }
 }
 
