@@ -4245,6 +4245,14 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     width: 45%; 
 }
 
+#page-top > section.image-service > div {
+    width: 90%;
+}
+
+#page-top > section.image-service > div > div > div > div {
+    width: 90%;
+}
+
 #wedo > div > div > div > div > h3, #about > div > div > div > div.about-text > h3 > span, #about2 > div > div > div > div.about-text > h3 > span, #about3 > div > div > div > div.about-text > h3 > span, #quote > div.container-fluid > div > div.col-md-12.quote-headline > h4, #services > div > div.col-lg-12.service-content > div > div > p > span, #services > div > div > p.wow.fadeIn.animated, #services > div > div > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > h3 > a, #offres > div > div.col-lg-12.service-content > div > div > p > span, #contact > div > div > div > div.contact-content > div.contact-info > p, #contact > div > div > div > div.contact-content > div.contact-form > h4, #services-attente > div > div > div.col-md-12.service-headline > h2, #portfolio-details > div > div > div > h4, #portfolio-details-file > div > div > div > h3, #three-points > div > div > div > div > ul > li > div.text, #offres > div > div > p.wow.fadeIn.animated, #services > div > div > p, #com-call-to > div.container > div > div > h3 {
     font-size: 28px !important;
 }
@@ -4451,9 +4459,6 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #services > div > div > div.col-md-12.service-content > div > div > div.text > h4 {
         text-align: left;
     }
-    #big-image {
-        display: none;
-    }
     #about2 {
         height: 38em;
     }
@@ -4477,17 +4482,26 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     .not-visible-little-screens > h3 > a {
         color: #ff701b;
     }
-    #our-work {
-        height: 36em;
-    }
     .not-visible-little-screens > p {
         color: white;
     }
-    #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img {
-        display: none;
-    }
     .filedattente {
         height: 60em;
+    }
+    #our-work > div > div > div.col-md-12.portfolio-images > div {
+        width: 63%;
+        margin: auto;
+        float: none;
+    }
+    #services > div > div > div.col-md-12.service-content > div {
+        width: 100%;
+    }
+    #services > div > div > div.col-md-12.service-content > div.service-image {
+        width: 100%;
+        margin: auto;
+    }
+    #hero > div.container-fluid > div > div > div.hero-logo > img {
+        width: 80%;
     }
 }
 
@@ -4531,6 +4545,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     .filedattente {
         height: 68em;
     }
+    .offre1 {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -4542,6 +4559,17 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #wedo {
         height: 54em;
+    }
+    #our-work > div > div > div.col-md-12.portfolio-images > div {
+        width: 80%;
+    }
+    #big-image {
+        padding-top: 8em;
+    }
+    #big-image > div {
+        width: 100%;
+        float: none !important;
+        margin: 0 auto !important;
     }
 }
 
@@ -4557,9 +4585,6 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #about {
         height: 60em;
-    }
-    #services {
-        padding-top: 20em;
     }
     #quote > div.container-fluid > div > div.col-md-12.quote-bottom {
         height: 42em;
@@ -4580,6 +4605,15 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #about2 {
         height: 55em;
+    }
+    #our-work > div > div > div.col-md-12.portfolio-images > div {
+        width: 100%;
+    }
+    #hero > div.container-fluid > div > div > div.typed-text > span.skilltechtypetext {
+        font-size: 50px !important;
+    }
+    #our-work > div > div > div.col-md-12.see-work > h2 {
+        font-size: 35px !important;
     }
 }
 
@@ -4614,14 +4648,14 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #contact > div > div > div > div.contact-content > div.contact-info {
         height: 45em;
     }
+    .offre1 {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 330px) {
-    #big-image {
-        padding-top: 0em;
-    }
-    #big-image > div > div > div > h4 {
-        font-size: 16px;
+    #big-image > div > h3 {
+        font-size: 28px;
     }
     #about {
         height: 55em;
@@ -4635,6 +4669,12 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #offres-alt {
         height: 38em;
         padding-top: 22em;
+    }
+    #call-to > div.container > div > div > h3 {
+        font-size: 40px !important;
+    }
+    #big-image {
+        padding-top: 3em;
     }
 }
 
