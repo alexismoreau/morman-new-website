@@ -4224,7 +4224,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #services > div > div > div.col-md-12.service-content > div.service-image {
-    width: 30em;
+    width: 22em;
 }
 
 #services > div {
@@ -4298,15 +4298,6 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 @media only screen and (max-width: 1070px) {
-    #our-work {
-        height: 73em;
-    }
-    #our-work > div > div > div.col-md-12.portfolio-images > div {
-        padding: 2em 0 0 0;
-        width: 70%;
-        margin: auto;
-        float: none;
-    }
     #st-logo {
         padding-top: 25px;
     }
@@ -4319,9 +4310,44 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #services-attente > div > div > div.col-md-12.service-content > div {
         width: 100%;
     }
+    #services > div > div > div.col-md-12.service-content > div.service-image > img {
+        width: 60%;
+    }
+    #services {
+        height: 108em;
+    }
+    #services > div > div > div.col-md-12.service-content > div {
+        width: 80%;
+        padding-top: 0;
+        height: auto;
+    }
+    .service, .service-2 {
+        margin: auto;
+    }
+    #services > div > div > div.col-md-12.service-content > div.service-image {
+        width: 35em;
+    }
+    #call-to {
+        padding-top: 12em;
+    }
+    #contact > div > div > div > div > div.contact-info > div.info-line {
+        padding-left: 5%;
+    }
 }
 
 @media only screen and (max-width: 992px) {
+    /*#our-work {
+        height: 73em;
+    }
+    #our-work > div > div > div.col-md-12.portfolio-images > div {
+        padding: 2em 0 0 0;
+        width: 70%;
+        margin: auto;
+        float: none;
+    }*/
+    #our-work > div > div > div.col-md-12.portfolio-images > div {
+        width: 50%;
+    }
     #about {
         height: 60em;
     }
@@ -4350,7 +4376,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         height: 30em;
     }
     #page-top > section:nth-child(11) {
-        height: 135em;
+        height: 58em;
     }
     #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(4) > div.col-sm-4 > div > p, #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(6) > div.col-sm-4 > div > p {
         width: unset;
