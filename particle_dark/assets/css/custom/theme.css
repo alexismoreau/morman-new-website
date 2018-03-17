@@ -4342,7 +4342,10 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         padding-left: 5%;
     }
     #offres > div {
-        width: 90%;
+        width: 100%;
+    }
+    .hero-section-video .typed-text .skilltechtypetext {
+        line-height: 60px;
     }
 }
 
@@ -4401,8 +4404,8 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 @media only screen and (max-width: 850px) {
-    #our-work > div > div > div.col-md-12.portfolio-images > div {
-        width: 80%;
+    #hero > div.container-fluid > div > div > div.service-item-read-more {
+        padding-top: 14em;
     }
 }
 
