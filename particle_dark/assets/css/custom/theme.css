@@ -4366,6 +4366,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #big-image {
         padding-top: 8em;
     }
+    #st-nav > a {
+        right: 10%
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -4426,6 +4429,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #hero > div.container-fluid > div > div > div.service-item-read-more {
         padding-top: 14em;
     }
+    #st-nav > a {
+        right: 12%
+    }
 }
 
 @media only screen and (max-width: 780px) {
@@ -4465,6 +4471,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #about2 > div > div > div > div > h2 {
         line-height: 55px;
     }
+    #st-nav > a {
+        right: 14%
+    }
 }
 
 @media only screen and (max-width: 578px) {
@@ -4502,6 +4511,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #hero > div.container-fluid > div > div > div.hero-logo > img {
         width: 80%;
+    }
+    #st-nav > a {
+        right: 16%
     }
 }
 
@@ -4548,6 +4560,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     .offre1 {
         width: 80%;
     }
+    #st-nav > a {
+        right: 18%
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -4570,6 +4585,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         width: 100%;
         float: none !important;
         margin: 0 auto !important;
+    }
+    #st-nav > a {
+        right: 20%
     }
 }
 
@@ -4615,6 +4633,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #our-work > div > div > div.col-md-12.see-work > h2 {
         font-size: 35px !important;
     }
+    #st-nav > a {
+        right: 22%
+    }
 }
 
 @media only screen and (max-width: 370px) {
@@ -4651,6 +4672,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     .offre1 {
         width: 100%;
     }
+    #st-nav > a {
+        right: 24%
+    }
 }
 
 @media only screen and (max-width: 330px) {
@@ -4675,6 +4699,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #big-image {
         padding-top: 3em;
+    }
+    #st-nav > a {
+        right: 28%
     }
 }
 
