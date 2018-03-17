@@ -4029,7 +4029,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     position: relative;
 }
 
-#services > div > div.col-lg-12.service-content > div > div > div, #offres > div > div.col-lg-12.service-content > div > div > div {
+#services > div > div.col-lg-12.service-content > div > div > div {
     line-height: 8em;
 }
 
@@ -4152,6 +4152,91 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
   margin-top: -150px;
 }
 
+#offres > div > div:nth-child(1) > h4 {
+  font-size: 41px;
+  color: white;
+}
+
+#offres > div > div.col-md-12.service-content > h4 {
+    color: white;
+    font-size: 30px;
+}
+
+#offres > div > div.col-md-12.service-content {
+
+  background-color: rgba(45, 102, 185, 0.15);
+  margin-bottom: 3px;
+}
+
+#offres > div > div.col-lg-12.service-content > div > div > div > div > a > button {
+  width: 220px;
+  height: 50px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+#our-work > div > div > div.col-md-12.portfolio-images > div > div > div.sweep-from-center > div > div > a > button {
+  margin-top: 25px;
+  width: 220px;
+  height: 50px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+#offres > div > div.col-lg-12.service-content > div > div > div > div.wow.fadeIn.animated {
+    padding-top: 2em;
+}
+
+#offres > div > div.col-lg-12.service-content > div > div > div > div:nth-child(2) {
+    height: 8em;
+}
+
+#offres > div > div.col-lg-12.service-content > div > div > p {
+    margin: 0;
+}
+
+#call-to > div.container > div > div > h3:nth-child(3) {
+  margin-top: 50px;
+}
+
+#call-to > div.container > div > div {
+      margin-top: -100px;
+}
+
+#services > div > div > div {
+  padding-top: 12em;
+}
+
+#services > div > div {
+  margin-top: -13em;
+}
+
+#big-image > div > div > div{
+  background: #101c26;
+  opacity: 0.9;
+  padding: 1em;
+}
+
+#services > div > div > div.col-md-12.service-content > div.service-image {
+    width: 30em;
+}
+
+#services > div {
+    margin: auto;
+}
+
+#services {
+  padding-top: 8.35em;
+  height: 48.8em;
+  padding-left: 1em;
+}
+
 #wedo > div > div > div > div > h3, #about > div > div > div > div.about-text > h3 > span, #about2 > div > div > div > div.about-text > h3 > span, #about3 > div > div > div > div.about-text > h3 > span, #quote > div.container-fluid > div > div.col-md-12.quote-headline > h4, #services > div > div.col-lg-12.service-content > div > div > p > span, #services > div > div > p.wow.fadeIn.animated, #services > div > div > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > h3 > a, #offres > div > div.col-lg-12.service-content > div > div > p > span, #contact > div > div > div > div.contact-content > div.contact-info > p, #contact > div > div > div > div.contact-content > div.contact-form > h4, #services-attente > div > div > div.col-md-12.service-headline > h2, #portfolio-details > div > div > div > h4, #portfolio-details-file > div > div > div > h3, #three-points > div > div > div > div > ul > li > div.text, #offres > div > div > p.wow.fadeIn.animated, #services > div > div > p, #com-call-to > div.container > div > div > h3 {
     font-size: 28px !important;
 }
@@ -4174,7 +4259,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 
 @media only screen and (max-width: 1200px) {
     #our-work {
-        height: 45em;
+        height: auto;
     }
     #about {
         height: 55em;
@@ -4202,6 +4287,13 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #contact > div > div > div > div.contact-content > div.contact-form, #contact > div > div > div > div.contact-content > div.contact-info {
         height: 38em;
+    }
+    #our-work > div > div > div.col-md-12.portfolio-images {
+        height: 100%;
+    }
+    #services > div {
+        margin: 0;
+        width: 100%;
     }
 }
 
@@ -4522,130 +4614,4 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #portfolio-details-file > div > div > div > h2 {
         font-size: 40px !important;
     }
-}
-
-#offres > div > div:nth-child(1) > h4 {
-  font-size: 41px;
-  color: white;
-}
-
-#offres > div > div.col-md-12.service-content > h4 {
-    color: white;
-    font-size: 30px;
-}
-
-#offres > div > div.col-lg-12.service-content > div > div:nth-child(1) > div > a > button {
-  margin-top: -85px;
-  width: 220px;
-  height: 50px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  color: #ffffff;
-  font-size: 24px;
-}
-
-
-#offres > div > div.col-md-12.service-content {
-
-  background-color: rgba(45, 102, 185, 0.15);
-  margin-bottom: 3px;
-}
-
-#offres > div > div.col-lg-12.service-content > div > div:nth-child(2) > div > a > button {
-  margin-top: -85px;
-  width: 220px;
-  height: 50px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  color: #ffffff;
-  font-size: 24px;
-}
-
-#offres > div > div.col-lg-12.service-content > div > div:nth-child(3) > div > a > button {
-  margin-top: -85px;
-  width: 220px;
-  height: 50px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  color: #ffffff;
-  font-size: 24px;
-}
-
-#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(1) > div > div.sweep-from-center > div > div > a > button {
-  margin-top: 25px;
-  width: 220px;
-  height: 50px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  color: #ffffff;
-  font-size: 24px;
-}
-
-#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(2) > div > div.sweep-from-center > div > div > a > button{
-  margin-top: 25px;
-  width: 220px;
-  height: 50px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  color: #ffffff;
-  font-size: 24px;
-}
-
-#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(3) > div > div.sweep-from-center > div > div > a > button{
-  margin-top: 25px;
-  width: 220px;
-  height: 50px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  color: #ffffff;
-  font-size: 24px;
-}
-
-#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(4) > div > div.sweep-from-center > div > div > a > button{
-  margin-top: 25px;
-  width: 220px;
-  height: 50px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  color: #ffffff;
-  font-size: 24px;
-}
-
-#call-to > div.container > div > div > h3:nth-child(3) {
-  margin-top: 50px;
-}
-
-#call-to > div.container > div > div {
-      margin-top: -100px;
-}
-
-#services > div > div > div {
-  padding-top: 12em;
-}
-
-#services > div > div {
-  margin-top: -13em;
-}
-
-#big-image > div > div > div{
-  background: #101c26;
-  opacity: 0.9;
-  padding: 1em;
-}
-
-#services > div > div > div.col-md-12.service-content > div.service-image {
-      width: 30em;
-}
-
-#services{
-  height: 683px;
-  padding-left: 11px;
-  padding-top: 19em;
 }
