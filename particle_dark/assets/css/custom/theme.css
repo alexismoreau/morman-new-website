@@ -4430,13 +4430,6 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 @media only screen and (max-width: 715px) {
-    #services > div > div > div.col-md-12.service-content > div.right  {
-        margin-top: 3em;
-        height: 32em;
-    }
-    #services > div > div > div.col-md-12.service-content > div > div > div.text > h4 {
-        text-align: right;
-    }
     #wedo {
         height: 48em;
     }
