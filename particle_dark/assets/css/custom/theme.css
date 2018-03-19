@@ -731,11 +731,6 @@ header #st-logo img {
     -ms-transform: rotateX(90deg);
     -o-transform: rotateX(90deg);
     transform: rotateX(90deg);
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
 }
 
 .portfolio-img:hover .sweep-layer {
