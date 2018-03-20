@@ -4237,7 +4237,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 }
 
 #big-image > div {
-    width: 45%; 
+    width: 45%;
 }
 
 #page-top > section.image-service > div {
@@ -4699,4 +4699,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #portfolio-details-file > div > div > div > h2 {
         font-size: 40px !important;
     }
+}
+
+#contact > div > div > div > div > div.contact-info > div:nth-child(2) > div.info-text.wow.fadeIn.animated > a {
+  color: white;
+  font-size: 22px;
 }
