@@ -107,7 +107,7 @@ div.offre1:nth-child(3) {
     color: #00F2FF;
 }
 
-#our-work > div > div > div.col-md-12.new-style > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > p, #service-details > div > div > div.col-md-12.service-content > div.right > div > div.text > h4, #about > div > div > div > div > h3, #about2 > div > div > div > div > h3, #about3 > div > div > div > div > h3 {
+#our-work > div > div > div.col-md-12.new-style > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > p, #service-details > div > div > div.col-md-12.service-content > div.right > div > div.text > h4, #service-details-2 > div > div > div.col-md-12.service-content > div.right > div > div.text > h4, #about > div > div > div > div > h3, #about2 > div > div > div > div > h3, #about3 > div > div > div > div > h3 {
     color: white;
 }
 
