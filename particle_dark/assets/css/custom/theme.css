@@ -618,7 +618,7 @@ header #st-logo img {
     font-size: 44px;
     margin: 0;
     font-weight: 700;
-    color: black;
+
 }
 
 .our-work-section .new-style {
@@ -655,6 +655,7 @@ header #st-logo img {
 .our-work-section .portfolio-images {
     height: 100%;
     padding: 0;
+    background: #101c26;
 }
 
 .our-work-section .portfolio-images .col-md-3 {
@@ -719,7 +720,7 @@ header #st-logo img {
 
 .portfolio-img .sweep-layer {
     width: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    background-image: linear-gradient(to right, #00F2FF, #ff701b 100%);
     text-align: center;
     padding-top: 35%;
     position: absolute;
@@ -4005,8 +4006,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 #our-work > div > div > div.col-md-12.see-work {
   height: 9em;
   padding: 3em 0;
-  border-top: 4px solid black;
-  border-bottom: 4px solid black;
+  background: #101c26;
 }
 
 #hero > div.container-fluid > div > div > div.hero-logo > img {
@@ -4463,7 +4463,7 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     body > section.portfolio-item > div.container-fluid > div > div > div > div.container > div > div > div {
         line-height: 7em;
     }
-  
+
 }
 
 @media only screen and (max-width: 767px) {
