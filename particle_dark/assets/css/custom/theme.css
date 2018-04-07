@@ -4471,6 +4471,13 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
   #service-details {
         height: auto;
   }
+  #services > div > div > div > div > div.col-sm-4 {
+    float: left;
+    width: 33.333%;
+  }
+  #services > div > div > div > div > div {
+    float: right;
+  }
 }
 
 @media only screen and (max-width: 715px) {
@@ -4617,6 +4624,12 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         float: none !important;
         margin: 0 auto !important;
     }
+    #services > div > div > div > div > div.col-sm-4 > div > p, #services > div > div > div > div > div > div > p {
+      font-size: 15px !important;
+    }
+    #services > div > div > div > div > div {
+      padding: 0;
+    }
 }
 
 @media only screen and (max-width: 430px) {
@@ -4702,6 +4715,9 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     }
     #st-main-nav > ul {
         width: 16em;
+    }
+    #services > div > div > div > div > div.col-sm-4 {
+        width: 20%;
     }
 }
 
