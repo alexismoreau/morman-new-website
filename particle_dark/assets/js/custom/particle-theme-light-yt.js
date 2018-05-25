@@ -71,23 +71,23 @@
     });
   
     $(document).scroll(function() {
-        var y = $("#services").offset().top;
-        if (y < $(window).scrollTop()+350) {
+        var y = $(this).scrollTop();
+        if (y > 3200) {
           document.getElementById('service1').style.visibility = "visible";
         } else {
           document.getElementById('service1').style.visibility = "hidden";
         }
-        if (y < $(window).scrollTop()+250) {
+        if (y > 3400) {
           document.getElementById('service3').style.visibility = "visible";
         } else {
           document.getElementById('service3').style.visibility = "hidden";
         }
-        if (y < $(window).scrollTop()+150) {
+        if (y > 3500) {
           document.getElementById('service2').style.visibility = "visible";
         } else {
           document.getElementById('service2').style.visibility = "hidden";
         }
-        if (y < $(window).scrollTop()+50) {
+        if (y > 3600) {
           document.getElementById('service4').style.visibility = "visible";
         } else {
           document.getElementById('service4').style.visibility = "hidden";
