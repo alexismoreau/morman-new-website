@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body,
+.m1 {
+    height: 100%;
+    width: 100%;
+}
+
+.eye {
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    margin-top: 177px;
+    background: white;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 1);
+}
+
+.pill {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+}
+
+#joconde {
+    background-color: #0c161e;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#joconde > img {
+    margin: auto;
+    display: block;
+}
+
+#eye-left {
+  margin-left: 47.5%;
+}
+
+#eye-right {
+  margin-left: 49.7%;
+}
+
+@media (max-width: 1350px) {
+  #eye-left {
+    margin-left: 47.2%;
+  }
+
+  #eye-right {
+    margin-left: 49.6%;
+  }
+}
+
+@media (max-width: 1150px) {
+  #eye-left {
+    margin-left: 46.9%;
+  }
+}
+
+@media (max-width: 990px) {
+  #eye-left {
+    margin-left: 46.5%;
+  }
+}
+
+@media (max-width: 900px) {
+  #eye-left {
+    margin-left: 46%;
+  }
+}
+
+@media (max-width: 800px) {
+  #eye-left {
+    margin-left: 45.7%;
+  }
+}
+
+@media (max-width: 720px) {
+  #eye-left {
+      margin-left: 45%;
+  }
+}
+
+@media (max-width: 690px) {
+  .eye {
+      display: none;
+  }
+}
