@@ -13,17 +13,23 @@
 .service-bottom .container h3 span,
 .service-headline h2 span,
 .service-headline p span,
-.service-content p,
+.service-content p span,
 .service .text a:hover,
+.service .text h4 span,
 .service .icons i,
 .offre1 .contact-header span,
 .service-2 .icons i,
+.service-2 .text h4 span,
 .skills-headline h2 span,
 .our-work-section h2 span,
 .info-line .info-icon i,
 footer p a:hover,
 .portfolio-icons li a i,
-.service-icons li a i, #hero > div.container-fluid > div > div > div.typed-text > span.skilltechtypetext > span, #com-call-to > div.container > div > div > h3 > span {
+.service-icons li a i,
+#hero > div.container-fluid > div > div > div.typed-text > span.skilltechtypetext > span,
+#com-call-to > div.container > div > div > h3 > span,
+#service-details > div > div > div.col-md-12.service-content > div.right > div > div.text > h4,
+#service-details-2 > div > div > div.col-md-12.service-content > div.right > div > div.text > h4 {
 
     color: #ff701b;
 }
@@ -80,12 +86,12 @@ div.offre1:nth-child(3) {
     background-color: rgba(45, 102, 185, 0.35);
 }
 
-#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(1) > div > div.sweep-from-center > div > div > h3 > a ,
+/*#our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(1) > div > div.sweep-from-center > div > div > h3 > a ,
 #our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(2) > div > div.sweep-from-center > div > div > h3 > a ,
 #our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(3) > div > div.sweep-from-center > div > div > h3 > a ,
 #our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(4) > div > div.sweep-from-center > div > div > h3 > a {
   color: black;
-}
+}*/
 #our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(1) > div > div.sweep-from-center > div > div > h3 > a:hover ,
 #our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(2) > div > div.sweep-from-center > div > div > h3 > a:hover ,
 #our-work > div > div > div.col-md-12.portfolio-images > div:nth-child(3) > div > div.sweep-from-center > div > div > h3 > a:hover ,
@@ -99,7 +105,13 @@ div.offre1:nth-child(3) {
 }
 
 /* secondary color */
-.our-work-section .new-style p a, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > a, #about > div > div > div > div.about-text > h3 > span, #about2 > div > div > div > div.about-text > h3 > span, #about3 > div > div > div > div.about-text > h3 > span, #portfolio-details-file > div > div > div > h2, #portfolio-details-file > div > div > div > h3 > span {
+.our-work-section .new-style p a,
+#our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > a,
+#about > div > div > div > div.about-text > h3 > span,
+#about2 > div > div > div > div.about-text > h3 > span,
+#about3 > div > div > div > div.about-text > h3 > span,
+#portfolio-details-file > div > div > div > h2 > span,
+#portfolio-details-file > div > div > div > h3 > span {
     color: #ff701b;
 }
 
@@ -109,9 +121,15 @@ div.offre1:nth-child(3) {
 
 #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > p{
   color: black;
+  font-weight: bold;
 }
 
-#our-work > div > div > div.col-md-12.new-style > p,  #service-details > div > div > div.col-md-12.service-content > div.right > div > div.text > h4, #service-details-2 > div > div > div.col-md-12.service-content > div.right > div > div.text > h4, #about > div > div > div > div > h3, #about2 > div > div > div > div > h3, #about3 > div > div > div > div > h3 {
+#our-work > div > div > div.col-md-12.new-style > p,
+#about > div > div > div > div > h3,
+#about2 > div > div > div > div > h3,
+#about3 > div > div > div > div > h3,
+#portfolio-details-file > div > div > div > h2,
+.service-content p {
     color: white;
 }
 

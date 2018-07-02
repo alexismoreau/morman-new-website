@@ -51,8 +51,9 @@ function myFunction(e) {
     var eyes = document.getElementsByClassName("eye");
   
     var joconde = document.getElementById("joconde");
+    var services = document.getElementById("services");
   
-    var offsetYPos = joconde.offsetTop;
+    var offsetYPos = joconde.offsetTop + services.offsetTop;
   
     for (i = 0; i < eyes.length; i++) {
         var eye = eyes[i];

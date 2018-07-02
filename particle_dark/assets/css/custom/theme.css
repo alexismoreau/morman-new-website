@@ -1010,10 +1010,37 @@ header #st-logo img {
 .service-content .left,
 .service-content .right {
     overflow: hidden;
-    height: 530px;
+    height: 600px;
     padding-top: 70px;
+    width: 30%;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.service-content .service-image .eye {
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    background: white;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 1);
+}
+
+.service-content .service-image .eye .pill {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+}
 .service,
 .service-2 {
     height: 100px;
@@ -3769,9 +3796,11 @@ footer p a {
 }
 
 #wedo {
-    height: 41em;
+    height: 28em;
     background: black;
+    padding-top: 100px;
 }
+
 
 #wedo > div > div > div > div > a > button {
     visibility: visible;
@@ -3965,8 +3994,11 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     color: white;
 }
 
-#services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div:nth-child(2) > div > p,  #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div:nth-child(3) > div > p, #services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div:nth-child(4) > div > p {
+#services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div:nth-child(2) > div > p,
+#services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div:nth-child(3) > div > p,
+#services > div > div.service-2.wow.fadeIn.animated > div > div:nth-child(1) > div:nth-child(4) > div > p {
     text-align: center;
+    font-weight: bold;
 }
 
 #services > div > div:nth-child(4) > p, #offres-alt > div > p {
@@ -4225,11 +4257,12 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 
 #services > div {
     margin: auto;
+    width: 95%;
 }
 
 #services {
   padding-top: 8.35em;
-  height: 48.8em;
+  height: 63em;
   padding-left: 1em;
 }
 
@@ -4271,6 +4304,10 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 
 }
 
+#service1 > div.text, #service2 > div.text, #service3 > div.text, #service4 > div.text {
+  width: 80%;
+}
+
 #contact > div > div > div > div > div.contact-info > div:nth-child(2) {
   padding-top: 4em;
 }
@@ -4278,6 +4315,21 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
 #contact > div > div > div > div > div.contact-info > div.bottom-info{
   padding-top: 6em;
 }
+
+.modal {
+  display: block;
+  width: auto;
+  margin: -7em 30em 0 30em;
+  position: absolute;
+  top: unset;
+  right: unset;
+  bottom: unset;
+  left: unset;
+  overflow: visible;
+  -webkit-transition: opacity .15s linear;
+  -o-transition: opacity .15s linear;
+  transition: opacity .15s linear;
+} 
 
 #wedo > div > div > div > div > h3, #about > div > div > div > div.about-text > h3 > span, #about2 > div > div > div > div.about-text > h3 > span, #about3 > div > div > div > div.about-text > h3 > span, #quote > div.container-fluid > div > div.col-md-12.quote-headline > h4, #services > div > div.col-lg-12.service-content > div > div > p > span, #services > div > div > p.wow.fadeIn.animated, #services > div > div > p, #our-work > div > div > div.col-md-12.portfolio-images > div > div.portfolio-img > div.sweep-from-center > div > div > h3 > a, #offres > div > div.col-lg-12.service-content > div > div > p > span, #contact > div > div > div > div.contact-content > div.contact-form > h4, #services-attente > div > div > div.col-md-12.service-headline > h2, #portfolio-details > div > div > div > h4, #portfolio-details-file > div > div > div > h3, #three-points > div > div > div > div > ul > li > div.text, #offres > div > div > p.wow.fadeIn.animated, #services > div > div > p, #com-call-to > div.container > div > div > h3, #contact > div > div > div > div > div.contact-info > p {
     font-size: 28px !important;
@@ -4370,7 +4422,6 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
         height: 108em;
     }
     #services > div > div > div.col-md-12.service-content > div {
-        width: 80%;
         padding-top: 0;
         height: auto;
     }
@@ -4766,4 +4817,16 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
     #portfolio-details-file > div > div > div > h2 {
         font-size: 40px !important;
     }
+}
+
+#offres > div > div.col-lg-12.service-content > div > div:nth-child(1) > p > span,
+#offres > div > div.col-lg-12.service-content > div > div:nth-child(2) > p > span,
+#offres > div > div.col-lg-12.service-content > div > div:nth-child(3) > p > span {
+  font-weight: bold;
+}
+
+#services > div > div > div > div:nth-child(10) > div:nth-child(2) > div > p,
+#services > div > div > div > div:nth-child(10) > div:nth-child(3) > div > p,
+#services > div > div > div > div:nth-child(10) > div:nth-child(4) > div > p{
+  text-align: center;
 }
