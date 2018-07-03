@@ -72,22 +72,23 @@
   
     $(document).scroll(function() {
         var y = $(this).scrollTop();
-        if (y > 3200) {
+        var services = document.getElementById("services");
+        if (y > services.offsetTop - 40) {
           document.getElementById('service1').style.visibility = "visible";
         } else {
           document.getElementById('service1').style.visibility = "hidden";
         }
-        if (y > 3400) {
+        if (y > services.offsetTop) {
           document.getElementById('service3').style.visibility = "visible";
         } else {
           document.getElementById('service3').style.visibility = "hidden";
         }
-        if (y > 3500) {
+        if (y > services.offsetTop + 80) {
           document.getElementById('service2').style.visibility = "visible";
         } else {
           document.getElementById('service2').style.visibility = "hidden";
         }
-        if (y > 3600) {
+        if (y > services.offsetTop + 120) {
           document.getElementById('service4').style.visibility = "visible";
         } else {
           document.getElementById('service4').style.visibility = "hidden";
