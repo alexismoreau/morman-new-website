@@ -40,7 +40,8 @@ function getPosition(el, offsetYPos) {
         y += el.offsetTop - el.scrollTop;
         el = el.offsetParent;
     }
-    return new Dot(x, y - offsetYPos);
+
+    return new Dot(x, y - document.scrollingElement.scrollTop);
 }
 
 document.addEventListener("mousemove", myFunction);
@@ -54,7 +55,7 @@ function myFunction(e) {
     var services = document.getElementById("services");
   
     var offsetYPos = joconde.offsetTop + services.offsetTop;
-  
+    
     for (i = 0; i < eyes.length; i++) {
         var eye = eyes[i];
 

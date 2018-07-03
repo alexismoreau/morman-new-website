@@ -4312,6 +4312,10 @@ body > section.portfolio-item > div.container-fluid > div > div > div > div.cont
   padding-top: 4em;
 }
 
+#project-info {
+      margin-right: 2em;
+}
+
 #contact > div > div > div > div > div.contact-info > div.bottom-info{
   padding-top: 6em;
 }
